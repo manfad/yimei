@@ -1,17 +1,64 @@
 ---
-
+import BaseLayout from '../layouts/BaseLayout.astro';
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow" data-hero-item>Industrial Wastewater &middot; Resource Recovery</p>
+        <h1 data-hero-item>Waste goes in.<br /><span class="accent">Clean water</span> comes out.</h1>
+        <p class="lead" data-hero-item>
+          Yimei Environment Protection engineers treatment flows that turn palm&nbsp;oil mill effluent and heavy
+          industrial waste into water clean enough to reuse — closing the loop for a cleaner industry.
+        </p>
+        <div class="hero-actions" data-hero-item>
+          <a class="btn" href="/products">Explore our solutions <span class="arr">&rarr;</span></a>
+          <a class="btn btn--ghost" href="/about">Who we are</a>
+        </div>
+      </div>
+      <div class="hero-figure" data-hero-item>
+        <div class="ph ph--center" data-label="Hero — facility / clean water"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section nav-section">
+    <div class="container">
+      <div class="reveal" style="max-width:62ch">
+        <p class="eyebrow">Explore Yimei</p>
+        <h2 class="h-xl" style="margin-top:18px;color:#fff">Where would you like to go?</h2>
+        <p class="lead" style="margin-top:18px">
+          Four ways into Yimei — get to know us, browse the full range of treatment solutions, see where we've been, or
+          start a conversation.
+        </p>
+      </div>
+      <div class="navcards">
+        <a class="navcard reveal" href="/about">
+          <div class="nc-no">01</div>
+          <h3>About Yimei</h3>
+          <p>Our vision, mission, the story behind the company and the people leading it.</p>
+          <span class="go">Read more <span class="arr">&rarr;</span></span>
+        </a>
+        <a class="navcard reveal" href="/products">
+          <div class="nc-no">02</div>
+          <h3>Products</h3>
+          <p>Five categories of treatment flows and equipment — explore the full range.</p>
+          <span class="go">Browse range <span class="arr">&rarr;</span></span>
+        </a>
+        <a class="navcard reveal" href="/events">
+          <div class="nc-no">03</div>
+          <h3>Events</h3>
+          <p>Collaborations, site visits and milestones from across our network.</p>
+          <span class="go">See highlights <span class="arr">&rarr;</span></span>
+        </a>
+        <a class="navcard reveal" href="/contact">
+          <div class="nc-no">04</div>
+          <h3>Contact</h3>
+          <p>Tell us about your site and waste streams — we'll scope a solution.</p>
+          <span class="go">Get in touch <span class="arr">&rarr;</span></span>
+        </a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

@@ -1,0 +1,38 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import EventCard from '../../components/EventCard.astro';
+import { events } from '../../data/events';
+
+const featured = events.find((e) => e.feature) ?? events[0];
+const rest = events.filter((e) => !e.feature);
+const chipClass = featured.type === 'Collaboration' ? 'chip leaf' : 'chip';
+---
+
+<BaseLayout title="Events — Yimei Environment Protection">
+  <section class="section">
+    <div class="container">
+      <PageHero
+        eyebrow="Events &amp; Highlights"
+        title="Collaborations, visits and milestones."
+        lead="A look at the partnerships we build and the people who visit our sites — from industry collaborations to plant tours and exhibitions."
+      />
+
+      <a class="ev-feature reveal" href={`/events/${featured.id}`}>
+        <div class="ph ph--center" data-label={featured.title}></div>
+        <div class="evf-body">
+          <div class="ev-top" style="display:flex;gap:10px;align-items:center">
+            <span class={chipClass}>{featured.type}</span>
+            <span class="ev-date">{featured.date} &middot; {featured.location}</span>
+          </div>
+          <h3>{featured.title}</h3>
+          <p>{featured.excerpt}</p>
+          <span class="btn" style="pointer-events:none">Read the story <span class="arr">&rarr;</span></span>
+        </div>
+      </a>
+      <div class="ev-grid">
+        {rest.map((ev) => <EventCard event={ev} />)}
+      </div>
+    </div>
+  </section>
+</BaseLayout>

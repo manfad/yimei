@@ -1,0 +1,22 @@
+---
+import type { Event } from '../data/events';
+
+interface Props {
+  event: Event;
+}
+
+const { event } = Astro.props;
+const chipClass = event.type === 'Collaboration' ? 'chip leaf' : 'chip';
+---
+
+<a class="evcard reveal" href={`/events/${event.id}`}>
+  <div class="ph ph--center" data-label={event.title}></div>
+  <div class="evcard-body">
+    <div class="ev-top">
+      <span class={chipClass}>{event.type}</span>
+      <span class="ev-date">{event.date}</span>
+    </div>
+    <h4>{event.title}</h4>
+    <p>{event.excerpt}</p>
+  </div>
+</a>

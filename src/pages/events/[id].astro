@@ -1,0 +1,76 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import { events } from '../../data/events';
+
+export function getStaticPaths() {
+  return events.map((ev) => ({ params: { id: ev.id }, props: { event: ev } }));
+}
+
+const { event } = Astro.props;
+const chipClass = event.type === 'Collaboration' ? 'chip leaf' : 'chip';
+---
+
+<BaseLayout title={`${event.title} — Yimei Environment Protection`}>
+  <section class="section">
+    <div class="container">
+      <PageHero
+        compact
+        crumbs={[
+          { label: 'Home', href: '/' },
+          { label: 'Events', href: '/events' },
+          { label: event.title },
+        ]}
+      />
+
+      <div class="detail-head">
+        <div class="ev-top detail-head__meta">
+          <span class={chipClass}>{event.type}</span>
+          <span class="ev-date">{event.date}</span>
+        </div>
+        <h1 class="h-xl detail-head__title">{event.title}</h1>
+        <div class="event-meta-row">
+          <div class="emr-item">
+            <div class="k">Date</div>
+            <div class="v">{event.date}</div>
+          </div>
+          <div class="emr-item">
+            <div class="k">Type</div>
+            <div class="v">{event.type}</div>
+          </div>
+          <div class="emr-item">
+            <div class="k">Location</div>
+            <div class="v">{event.location}</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="gallery detail-gallery" data-gallery>
+        <div class="ph g-main" data-gallery-main data-label={`${event.title} — photo 1`} style="aspect-ratio:16/9"></div>
+        <div class="g-thumbs">
+          {
+            [1, 2, 3, 4].map((i) => (
+              <div
+                class:list={['ph', 'g-thumb', 'ph--center', { 'is-active': i === 1 }]}
+                data-gallery-thumb
+                data-label={`${event.title} — photo ${i}`}
+              />
+            ))
+          }
+        </div>
+      </div>
+
+      <div class="detail-body">
+        {event.body.map((par) => <p>{par}</p>)}
+      </div>
+
+      <div class="detail-back">
+        <a class="textlink" href="/events"><span class="arr detail-back__arr">&rarr;</span> Back to all events</a>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+  import '../../scripts/gallery';
+</script>

@@ -1,0 +1,157 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import PageHero from '../components/PageHero.astro';
+---
+
+<BaseLayout title="About — Yimei Environment Protection">
+  <section class="section">
+    <div class="container">
+      <PageHero
+        eyebrow="About Yimei"
+        title="A cleaner industry starts with cleaner water."
+        lead="We are an environmental engineering company turning the hardest industrial waste streams — starting with palm oil mill effluent — into water clean enough to put back to work."
+        crumbs={[{ label: 'Home', href: '/' }, { label: 'About' }]}
+      />
+
+      <div class="reveal" style="max-width:60ch">
+        <p class="eyebrow">Our purpose</p>
+        <h2 class="h-lg" style="margin-top:16px;color:#fff">Vision &amp; mission</h2>
+      </div>
+      <div class="vm-grid">
+        <div class="vm-card reveal">
+          <span class="tag">01</span>
+          <div class="vm-ico">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#8FACFF" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="3"></circle>
+              <path d="M2 12s3.5-7 10-7 10 7 10 7-3.5 7-10 7-10-7-10-7Z"></path>
+            </svg>
+          </div>
+          <h3>Our Vision</h3>
+          <p>
+            A world where industry operates in a closed loop — where no drop of water is wasted and every waste stream
+            becomes a resource. We see effluent not as a problem to discharge, but as water waiting to be recovered.
+          </p>
+        </div>
+        <div class="vm-card leaf reveal">
+          <span class="tag">02</span>
+          <div class="vm-ico">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6FC23A" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 3s6 5.5 6 10a6 6 0 0 1-12 0c0-4.5 6-10 6-10Z"></path>
+              <path d="M12 21v-7"></path>
+            </svg>
+          </div>
+          <h3>Our Mission</h3>
+          <p>
+            To engineer reliable, modular treatment flows that help mills and factories meet discharge standards, recover
+            reusable water and reduce their environmental footprint — backed by service that keeps systems running.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt">
+    <div class="container about-split">
+      <div class="reveal">
+        <div class="ph ph--center" data-label="Company / facility photo"></div>
+      </div>
+      <div class="reveal">
+        <p class="eyebrow">Background</p>
+        <h2 class="h-lg" style="margin-top:16px;color:#fff">Where we come from.</h2>
+        <p class="lead" style="margin-top:18px">
+          Yimei Environment Protection was founded to tackle one of the region's most stubborn environmental challenges:
+          the high-strength effluent produced by palm oil mills.
+        </p>
+        <p style="margin-top:18px;color:var(--muted)">
+          What began as a focused effort on mill effluent has grown into a full chain of treatment solutions — from
+          pre-treatment to water recovery — deployed across industrial sites. Our engineers combine proven biological and
+          membrane processes with monitoring and control so that systems don't just get installed, they keep performing.
+        </p>
+        <div class="timeline">
+          <div class="tl-row">
+            <div class="yr">Founded</div>
+            <div>
+              <h4>A focus on mill effluent</h4>
+              <p>Started solving palm oil mill effluent (POME) treatment for local producers.</p>
+            </div>
+          </div>
+          <div class="tl-row">
+            <div class="yr">Growth</div>
+            <div>
+              <h4>A full treatment chain</h4>
+              <p>Expanded into five solution categories spanning the entire flow from capture to reuse.</p>
+            </div>
+          </div>
+          <div class="tl-row">
+            <div class="yr">Today</div>
+            <div>
+              <h4>Recovery at scale</h4>
+              <p>Helping industrial sites recover reusable water and capture resources, 24/7.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="reveal" style="max-width:60ch">
+        <p class="eyebrow">Leadership</p>
+        <h2 class="h-lg" style="margin-top:16px;color:#fff">Our directors</h2>
+        <p class="lead" style="margin-top:16px">The people steering Yimei's engineering and growth.</p>
+      </div>
+      <div class="dir-grid">
+        <div class="dir reveal">
+          <div class="ph ph--center" data-label="Portrait"></div>
+          <div class="dir-body">
+            <h4>Director Name</h4>
+            <div class="role">Managing Director</div>
+            <p>
+              Leads company strategy and operations, with a background in environmental engineering and industrial water
+              treatment.
+            </p>
+          </div>
+        </div>
+        <div class="dir reveal">
+          <div class="ph ph--center" data-label="Portrait"></div>
+          <div class="dir-body">
+            <h4>Director Name</h4>
+            <div class="role">Technical Director</div>
+            <p>Heads process design and R&amp;D across the treatment chain, from biological systems to membrane filtration.</p>
+          </div>
+        </div>
+        <div class="dir reveal">
+          <div class="ph ph--center" data-label="Portrait"></div>
+          <div class="dir-body">
+            <h4>Director Name</h4>
+            <div class="role">Operations Director</div>
+            <p>Oversees project delivery, commissioning and after-sales service to keep systems performing on site.</p>
+          </div>
+        </div>
+      </div>
+      <div class="values-row reveal">
+        <div class="value">
+          <div class="vn">VAL 01</div>
+          <h4>Engineering rigour</h4>
+          <p>Solutions grounded in proven process and real site conditions.</p>
+        </div>
+        <div class="value">
+          <div class="vn">VAL 02</div>
+          <h4>Resource thinking</h4>
+          <p>Waste is a resource — we recover water, energy and by-products.</p>
+        </div>
+        <div class="value">
+          <div class="vn">VAL 03</div>
+          <h4>Reliability</h4>
+          <p>Systems built to run, with the service to keep them running.</p>
+        </div>
+        <div class="value">
+          <div class="vn">VAL 04</div>
+          <h4>Compliance</h4>
+          <p>Meeting and beating discharge standards, every time.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

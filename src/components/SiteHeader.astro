@@ -1,0 +1,52 @@
+---
+const path = Astro.url.pathname;
+
+const links = [
+  { href: '/', label: 'Home', match: (p: string) => p === '/' },
+  { href: '/about', label: 'About', match: (p: string) => p.startsWith('/about') },
+  { href: '/products', label: 'Products', match: (p: string) => p.startsWith('/products') },
+  { href: '/events', label: 'Events', match: (p: string) => p.startsWith('/events') },
+];
+---
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="/">
+      <img
+        class="brand-logo"
+        src="/images/l.png"
+        width="320"
+        height="99"
+        alt="Yimei Environment Protection"
+      />
+    </a>
+    <nav class="nav-links">
+      {
+        links.map(({ href, label, match }) => (
+          <a href={href} class:list={{ active: match(path) }}>
+            {label}
+          </a>
+        ))
+      }
+    </nav>
+    <div class="nav-cta">
+      <a class="btn btn--sm" href="/contact">
+        Get in touch <span class="arr">&rarr;</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false">
+        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" stroke="currentColor" stroke-width="1.8">
+          <path d="M3 7h20M3 13h20M3 19h20"></path>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <nav class="mnav">
+    {
+      links.map(({ href, label, match }) => (
+        <a href={href} class:list={{ active: match(path) }}>
+          {label}
+        </a>
+      ))
+    }
+  </nav>
+</header>

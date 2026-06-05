@@ -1,0 +1,22 @@
+---
+import { categoryName } from '../data/categories';
+import type { Product } from '../data/products';
+
+interface Props {
+  product: Product;
+  hidden?: boolean;
+}
+
+const { product, hidden = false } = Astro.props;
+---
+
+<a
+  class:list={['pcard', 'reveal', { 'is-hidden': hidden }]}
+  href={`/products/${product.id}`}
+  data-product-cat={product.cat}
+>
+  <div class="pimg ph ph--center" data-label="img"></div>
+  <div class="pc-cat">{categoryName(product.cat)}</div>
+  <h4>{product.name}</h4>
+  <p>{product.tag}</p>
+</a>

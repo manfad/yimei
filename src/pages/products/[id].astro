@@ -1,0 +1,102 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import ProductCard from '../../components/ProductCard.astro';
+import { categoryName } from '../../data/categories';
+import { products } from '../../data/products';
+
+export function getStaticPaths() {
+  return products.map((p) => ({ params: { id: p.id }, props: { product: p } }));
+}
+
+const { product } = Astro.props;
+
+let related = products.filter((x) => x.cat === product.cat && x.id !== product.id).slice(0, 3);
+if (related.length < 3) {
+  for (const x of products) {
+    if (related.length >= 3) break;
+    if (x.id !== product.id && !related.includes(x)) related.push(x);
+  }
+}
+---
+
+<BaseLayout title={`${product.name} — Yimei Environment Protection`}>
+  <section class="section">
+    <div class="container">
+      <PageHero
+        compact
+        crumbs={[
+          { label: 'Home', href: '/' },
+          { label: 'Products', href: '/products' },
+          { label: product.name },
+        ]}
+      />
+
+      <div class="detail-grid">
+        <div class="gallery" data-gallery>
+          <div class="ph g-main" data-gallery-main data-label={`${product.name} — photo 1`}></div>
+          <div class="g-thumbs">
+            {
+              [1, 2, 3, 4].map((i) => (
+                <div
+                  class:list={['ph', 'g-thumb', 'ph--center', { 'is-active': i === 1 }]}
+                  data-gallery-thumb
+                  data-label={`${product.name} — photo ${i}`}
+                />
+              ))
+            }
+          </div>
+        </div>
+        <div class="detail-meta">
+          <span class="chip">{categoryName(product.cat)}</span>
+          <h1>{product.name}</h1>
+          <p class="d-lead">{product.tag}</p>
+          <ul class="bullets">
+            {
+              product.bullets.map((text) => (
+                <li>
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#6FC23A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M20 6 9 17l-5-5"></path>
+                  </svg>
+                  <span>{text}</span>
+                </li>
+              ))
+            }
+          </ul>
+          <div class="spec-table">
+            {
+              product.specs.map(([sk, sv]) => (
+                <div class="sr">
+                  <div class="sk">{sk}</div>
+                  <div class="sv">{sv}</div>
+                </div>
+              ))
+            }
+          </div>
+          <div class="detail-actions">
+            <a class="btn" href="/contact">Enquire about this product <span class="arr">&rarr;</span></a>
+            <a class="btn btn--ghost" href="/products">All products</a>
+          </div>
+        </div>
+      </div>
+
+      {
+        related.length > 0 && (
+          <div class="detail-related">
+            <div class="detail-related__head">
+              <h3 class="h-md" style="color:#fff">Related products</h3>
+              <a class="textlink" href="/products">View all <span class="arr">&rarr;</span></a>
+            </div>
+            <div class="prod-grid">
+              {related.map((p) => <ProductCard product={p} />)}
+            </div>
+          </div>
+        )
+      }
+    </div>
+  </section>
+</BaseLayout>
+
+<script>
+  import '../../scripts/gallery';
+</script>

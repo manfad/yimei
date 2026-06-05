@@ -1,0 +1,31 @@
+---
+interface Crumb {
+  label: string;
+  href?: string;
+}
+
+interface Props {
+  eyebrow?: string;
+  title?: string;
+  lead?: string;
+  crumbs?: Crumb[];
+  /** Breadcrumbs only — for product/event detail pages */
+  compact?: boolean;
+  class?: string;
+}
+
+const { eyebrow, title, lead, crumbs = [], compact = false, class: className } = Astro.props;
+---
+
+<header class:list={['page-intro', { 'page-intro--compact': compact }, className]}>
+
+  {
+    !compact && (
+      <>
+        {eyebrow && <p class="eyebrow">{eyebrow}</p>}
+        {title && <h1 class="h-xl page-intro__title">{title}</h1>}
+        {lead && <p class="lead page-intro__lead">{lead}</p>}
+      </>
+    )
+  }
+</header>

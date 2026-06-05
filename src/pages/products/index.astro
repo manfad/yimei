@@ -1,0 +1,129 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PageHero from '../../components/PageHero.astro';
+import ProductCard from '../../components/ProductCard.astro';
+import { categories } from '../../data/categories';
+import { products } from '../../data/products';
+
+const initialFilter = Astro.url.searchParams.get('cat') ?? 'all';
+const validIds = ['all', ...categories.map((c) => c.id)];
+const filter = validIds.includes(initialFilter) ? initialFilter : 'all';
+---
+
+<BaseLayout title="Products — Yimei Environment Protection">
+  <section class="section">
+    <div class="container">
+      <PageHero
+        eyebrow="Products &amp; Solutions"
+        title="Five categories, one continuous treatment flow."
+        lead="Pick a category on the left to filter the range — from the moment effluent is captured to the point clean water is returned."
+      />
+
+      <div class="prod-layout">
+        <aside class="cat-side" id="catSide">
+          <div class="cs-head">Categories</div>
+          <button
+            type="button"
+            class:list={['cat-tab', { active: filter === 'all' }]}
+            data-f="all"
+          >
+            <span>All</span>
+            <span class="ct-count">{products.length}</span>
+          </button>
+          {
+            categories.map((c) => {
+              const n = products.filter((p) => p.cat === c.id).length;
+              return (
+                <button
+                  type="button"
+                  class:list={['cat-tab', { active: filter === c.id }]}
+                  data-f={c.id}
+                >
+                  <span>{c.name}</span>
+                  <span class="ct-count">{n}</span>
+                </button>
+              );
+            })
+          }
+        </aside>
+
+        <div id="prodContent">
+          <div class="pc-head" id="pcHead">
+            {
+              filter === 'all' ? (
+                <>
+                  <div class="pc-no">ALL SOLUTIONS</div>
+                  <h2 class="h-md">Every stage of the flow</h2>
+                  <p>
+                    {products.length} products across {categories.length} categories — select a category to narrow the
+                    range.
+                  </p>
+                </>
+              ) : (
+                (() => {
+                  const c = categories.find((x) => x.id === filter)!;
+                  return (
+                    <>
+                      <div class="pc-no">CATEGORY {c.no}</div>
+                      <h2 class="h-md">{c.name}</h2>
+                      <p>{c.desc}</p>
+                    </>
+                  );
+                })()
+              )
+            }
+          </div>
+          <div class="prod-grid" id="prodGrid">
+            {
+              products.map((p) => (
+                <ProductCard product={p} hidden={filter !== 'all' && filter !== p.cat} />
+              ))
+            }
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<script define:vars={{ categories, products }}>
+  const catSide = document.getElementById('catSide');
+  const pcHead = document.getElementById('pcHead');
+  const grid = document.getElementById('prodGrid');
+
+  function renderHead(filter) {
+    if (filter === 'all') {
+      pcHead.innerHTML = `
+        <div class="pc-no">ALL SOLUTIONS</div>
+        <h2 class="h-md">Every stage of the flow</h2>
+        <p>${products.length} products across ${categories.length} categories — select a category to narrow the range.</p>`;
+      return;
+    }
+    const c = categories.find((x) => x.id === filter);
+    if (!c) return;
+    pcHead.innerHTML = `
+      <div class="pc-no">CATEGORY ${c.no}</div>
+      <h2 class="h-md">${c.name}</h2>
+      <p>${c.desc}</p>`;
+  }
+
+  function renderProducts(filter) {
+    catSide?.querySelectorAll('.cat-tab').forEach((tab) => {
+      tab.classList.toggle('active', tab.getAttribute('data-f') === filter);
+    });
+    renderHead(filter);
+    grid?.querySelectorAll('[data-product-cat]').forEach((card) => {
+      const cat = card.getAttribute('data-product-cat');
+      card.classList.toggle('is-hidden', filter !== 'all' && filter !== cat);
+    });
+    const url = new URL(location.href);
+    if (filter === 'all') url.searchParams.delete('cat');
+    else url.searchParams.set('cat', filter);
+    history.replaceState({}, '', url);
+    document.dispatchEvent(new Event('astro:page-load'));
+  }
+
+  catSide?.querySelectorAll('.cat-tab').forEach((tab) => {
+    tab.addEventListener('click', () => renderProducts(tab.getAttribute('data-f') ?? 'all'));
+  });
+</script>
