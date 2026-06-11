@@ -2,11 +2,12 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHero from '../../components/PageHero.astro';
 import EventCard from '../../components/EventCard.astro';
-import { events } from '../../data/events';
+import { getCollection } from 'astro:content';
+import { byOrderThenName, toEvent } from '../../lib/catalog';
 
-const featured = events.find((e) => e.feature) ?? events[0];
-const rest = events.filter((e) => !e.feature);
-const chipClass = featured.type === 'Collaboration' ? 'chip leaf' : 'chip';
+const events = (await getCollection('events', ({ data }) => !data.draft)).map(toEvent).sort(byOrderThenName);
+const visible = events.slice(0, 6);
+const hidden = events.slice(6);
 ---
 
 <BaseLayout title="Events — Yimei Environment Protection">
@@ -18,21 +19,37 @@ const chipClass = featured.type === 'Collaboration' ? 'chip leaf' : 'chip';
         lead="A look at the partnerships we build and the people who visit our sites — from industry collaborations to plant tours and exhibitions."
       />
 
-      <a class="ev-feature reveal" href={`/events/${featured.id}`}>
-        <div class="ph ph--center" data-label={featured.title}></div>
-        <div class="evf-body">
-          <div class="ev-top" style="display:flex;gap:10px;align-items:center">
-            <span class={chipClass}>{featured.type}</span>
-            <span class="ev-date">{featured.date} &middot; {featured.location}</span>
-          </div>
-          <h3>{featured.title}</h3>
-          <p>{featured.excerpt}</p>
-          <span class="btn" style="pointer-events:none">Read the story <span class="arr">&rarr;</span></span>
-        </div>
-      </a>
       <div class="ev-grid">
-        {rest.map((ev) => <EventCard event={ev} />)}
+        {visible.map((ev) => <EventCard event={ev} />)}
       </div>
+
+      {
+        hidden.length > 0 && (
+          <>
+            <div class="ev-grid ev-grid--more" data-events-more hidden>
+              {hidden.map((ev) => <EventCard event={ev} />)}
+            </div>
+            <div class="ev-more-wrap">
+              <button type="button" class="btn btn--ghost" data-events-toggle aria-expanded="false">
+                Show more events ({hidden.length}) <span class="arr">&darr;</span>
+              </button>
+            </div>
+          </>
+        )
+      }
     </div>
   </section>
 </BaseLayout>
+
+<script>
+  const toggle = document.querySelector('[data-events-toggle]');
+  const more = document.querySelector('[data-events-more]');
+  toggle?.addEventListener('click', () => {
+    const expanded = toggle.getAttribute('aria-expanded') === 'true';
+    toggle.setAttribute('aria-expanded', String(!expanded));
+    if (more) (more as HTMLElement).hidden = expanded;
+    toggle.innerHTML = expanded
+      ? `Show more events (${more?.children.length ?? ''}) <span class="arr">&darr;</span>`
+      : `Show less <span class="arr">&uarr;</span>`;
+  });
+</script>

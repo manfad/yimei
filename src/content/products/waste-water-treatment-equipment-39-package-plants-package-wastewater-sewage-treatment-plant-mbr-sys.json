@@ -1,0 +1,46 @@
+{
+  "id": "igo9ox",
+  "title": "Package Plants Package Wastewater Sewage Treatment Plant Mbr Sys",
+  "category": "waste-water-treatment-equipment",
+  "summary": "An integrated biochemical wastewater treatment system that combines the activated sludge method with biological membrane technology for efficient sewage purification in a compact footprint. Suitable for above-ground or underground installation in industrial and domestic applications.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/39-package-plants-package-wastewater-sewage-treatment-plant-mbr-sys/01.jpg",
+    "/images/products/waste-water-treatment-equipment/39-package-plants-package-wastewater-sewage-treatment-plant-mbr-sys/02.jpg",
+    "/images/products/waste-water-treatment-equipment/39-package-plants-package-wastewater-sewage-treatment-plant-mbr-sys/03.jpg",
+    "/images/products/waste-water-treatment-equipment/39-package-plants-package-wastewater-sewage-treatment-plant-mbr-sys/04.jpg",
+    "/images/products/waste-water-treatment-equipment/39-package-plants-package-wastewater-sewage-treatment-plant-mbr-sys/05.jpg",
+    "/images/products/waste-water-treatment-equipment/39-package-plants-package-wastewater-sewage-treatment-plant-mbr-sys/06.jpg"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/39-package-plants-package-wastewater-sewage-treatment-plant-mbr-sys/01.jpg",
+  "bullets": [
+    "Stable Grade 1A effluent quality",
+    "Compact above-ground or underground installation",
+    "Fully automatic, stable operation",
+    "Premium raw materials"
+  ],
+  "specs": [
+    {
+      "label": "Models",
+      "value": "YMSZ-1 to YMSZ-30"
+    },
+    {
+      "label": "Capacity",
+      "value": "1-30 m³/h"
+    },
+    {
+      "label": "Air Blower Power",
+      "value": "0.4-5.5 kW"
+    },
+    {
+      "label": "Total Weight",
+      "value": "5.5-29 tons"
+    },
+    {
+      "label": "Footprint",
+      "value": "6-115 m²"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 72
+}

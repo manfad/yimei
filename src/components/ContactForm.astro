@@ -1,51 +1,31 @@
 <form id="contactForm" novalidate>
-  <div class="field row2">
-    <div class="field">
-      <label>First name <span class="req">*</span></label>
-      <input name="first" type="text" placeholder="Jane" />
-      <div class="err-msg">Please enter your first name.</div>
-    </div>
-    <div class="field">
-      <label>Last name <span class="req">*</span></label>
-      <input name="last" type="text" placeholder="Tan" />
-      <div class="err-msg">Please enter your last name.</div>
-    </div>
+  <div class="field">
+    <label>Name <span class="req">*</span></label>
+    <input name="name" type="text" placeholder="Jane Tan" autocomplete="name" />
+    <div class="err-msg">Please enter your name.</div>
   </div>
   <div class="field">
-    <label>Company</label>
-    <input name="company" type="text" placeholder="Your company or mill" />
-  </div>
-  <div class="field row2">
-    <div class="field">
-      <label>Email <span class="req">*</span></label>
-      <input name="email" type="email" placeholder="jane@company.com" />
-      <div class="err-msg">Please enter a valid email.</div>
-    </div>
-    <div class="field">
-      <label>Phone</label>
-      <input name="phone" type="tel" placeholder="+60 ..." />
-    </div>
-  </div>
-  <div class="field">
-    <label>What can we help with?</label>
-    <select name="topic">
-      <option>General enquiry</option>
-      <option>Pre-treatment</option>
-      <option>Biological treatment</option>
-      <option>Filtration &amp; membrane</option>
-      <option>Water recovery &amp; reuse</option>
-      <option>Monitoring &amp; control</option>
-      <option>Service &amp; maintenance</option>
-    </select>
+    <label>Email <span class="req">*</span></label>
+    <input name="email" type="email" placeholder="jane@company.com" autocomplete="email" />
+    <div class="err-msg">Please enter a valid email.</div>
   </div>
   <div class="field">
     <label>Message <span class="req">*</span></label>
     <textarea name="message" placeholder="Tell us about your site, waste stream and what you'd like to achieve..."></textarea>
     <div class="err-msg">Please add a short message.</div>
   </div>
+  <!-- Honeypot: hidden from users, catches bots. Leave empty. -->
+  <input
+    type="text"
+    name="_gotcha"
+    tabindex="-1"
+    autocomplete="off"
+    aria-hidden="true"
+    style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0;pointer-events:none"
+  />
   <div class="form-foot">
     <button type="submit" class="btn">Send message <span class="arr">&rarr;</span></button>
-    <span class="form-note">We'll reply within one business day.</span>
+    <span class="form-note" id="formNote"></span>
   </div>
 </form>
 <div class="form-success" id="formSuccess">
@@ -63,37 +43,66 @@
   const form = document.getElementById('contactForm') as HTMLFormElement;
   const success = document.getElementById('formSuccess');
   const resetBtn = document.getElementById('formReset');
+  const note = document.getElementById('formNote');
+  const submitBtn = form?.querySelector('button[type="submit"]') as HTMLButtonElement;
+  const defaultNote = note?.textContent ?? '';
+
+  function setNote(message: string, isError: boolean) {
+    if (!note) return;
+    note.textContent = message;
+    note.classList.toggle('is-error', isError);
+  }
 
   function resetForm() {
     form.reset();
     form.style.display = '';
     success?.classList.remove('show');
+    setNote(defaultNote, false);
     form.querySelectorAll('.field').forEach((f) => f.classList.remove('bad'));
   }
 
   resetBtn?.addEventListener('click', resetForm);
 
-  form?.addEventListener('submit', (e) => {
+  form?.addEventListener('submit', async (e) => {
     e.preventDefault();
     let ok = true;
 
     function check(name: string, test: (v: string) => boolean) {
-      const input = form.querySelector(`[name="${name}"]`) as HTMLInputElement;
+      const input = form.querySelector(`[name="${name}"]`) as HTMLInputElement | HTMLTextAreaElement;
       const field = input.closest('.field');
       const bad = !test(input.value.trim());
       field?.classList.toggle('bad', bad);
       if (bad) ok = false;
     }
 
-    check('first', (v) => v.length > 0);
-    check('last', (v) => v.length > 0);
+    check('name', (v) => v.length > 0);
     check('email', (v) => /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v));
     check('message', (v) => v.length > 0);
-
     if (!ok) return;
 
-    form.style.display = 'none';
-    success?.classList.add('show');
+    const data = Object.fromEntries(new FormData(form).entries());
+
+    submitBtn.disabled = true;
+    setNote('Sending…', false);
+
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      });
+      const body = await res.json().catch(() => ({}));
+      if (!res.ok) throw new Error(body?.error ?? 'Something went wrong. Please try again.');
+
+      form.style.display = 'none';
+      success?.classList.add('show');
+    } catch (err) {
+      const message = err instanceof Error ? err.message : 'Something went wrong. Please try again.';
+      setNote(message, true);
+    } finally {
+      submitBtn.disabled = false;
+      if (note?.textContent === 'Sending…') setNote(defaultNote, false);
+    }
   });
 
   form?.querySelectorAll('input, textarea').forEach((el) => {

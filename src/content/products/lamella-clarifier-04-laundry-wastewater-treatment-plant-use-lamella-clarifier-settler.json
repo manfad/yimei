@@ -1,0 +1,42 @@
+{
+  "id": "xrdvh0",
+  "title": "Laundry Wastewater Treatment Plant Use Lamella Clarifier Settler",
+  "category": "lamella-clarifier",
+  "summary": "Laundry Wastewater Treatment Plant Use Lamella Clarifier Settler for compact sedimentation, clarification, and wastewater treatment flows.",
+  "images": [
+    "/images/products/lamella-clarifier/04-laundry-wastewater-treatment-plant-use-lamella-clarifier-settler/01.png",
+    "/images/products/lamella-clarifier/04-laundry-wastewater-treatment-plant-use-lamella-clarifier-settler/02.png",
+    "/images/products/lamella-clarifier/04-laundry-wastewater-treatment-plant-use-lamella-clarifier-settler/03.png",
+    "/images/products/lamella-clarifier/04-laundry-wastewater-treatment-plant-use-lamella-clarifier-settler/04.png",
+    "/images/products/lamella-clarifier/04-laundry-wastewater-treatment-plant-use-lamella-clarifier-settler/05.png",
+    "/images/products/lamella-clarifier/04-laundry-wastewater-treatment-plant-use-lamella-clarifier-settler/06.png"
+  ],
+  "featuredImage": "/images/products/lamella-clarifier/04-laundry-wastewater-treatment-plant-use-lamella-clarifier-settler/01.png",
+  "bullets": [
+    "Inclined-plate clarification design",
+    "Compact settling footprint",
+    "Supports suspended-solids reduction",
+    "Configurable tank and material options"
+  ],
+  "specs": [
+    {
+      "label": "Category",
+      "value": "Lamella Clarifier"
+    },
+    {
+      "label": "Application",
+      "value": "Wastewater treatment"
+    },
+    {
+      "label": "Configuration",
+      "value": "Project-specific"
+    },
+    {
+      "label": "Material",
+      "value": "SS / coated steel options"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 13
+}

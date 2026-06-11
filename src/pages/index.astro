@@ -4,21 +4,31 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 <BaseLayout>
   <section class="hero">
-    <div class="container hero-grid">
-      <div class="hero-copy">
-        <p class="eyebrow" data-hero-item>Industrial Wastewater &middot; Resource Recovery</p>
-        <h1 data-hero-item>Waste goes in.<br /><span class="accent">Clean water</span> comes out.</h1>
+    <div class="container hero-stage">
+      <h1 class="hero-title" data-hero-item>
+        Waste in.<br /><span class="accent">Water out.</span>
+      </h1>
+
+      <figure class="hero-sketch" data-hero-item>
+        <img
+          src="/sketch2.png"
+          width="1745"
+          height="901"
+          alt="Isometric illustration of a Yimei industrial water treatment facility"
+        />
+      </figure>
+
+      <div class="hero-desc">
+        <p class="hero-tagline" data-hero-item>
+          With Yimei, <span class="leaf">We Eco</span>
+        </p>
         <p class="lead" data-hero-item>
-          Yimei Environment Protection engineers treatment flows that turn palm&nbsp;oil mill effluent and heavy
-          industrial waste into water clean enough to reuse — closing the loop for a cleaner industry.
+          Yimei Environment Protection Technology supplies the water-treatment systems that turn effluent and heavy
+          industrial waste into clean water — cutting water pollution and giving every drop a second life.
         </p>
         <div class="hero-actions" data-hero-item>
           <a class="btn" href="/products">Explore our solutions <span class="arr">&rarr;</span></a>
-          <a class="btn btn--ghost" href="/about">Who we are</a>
         </div>
-      </div>
-      <div class="hero-figure" data-hero-item>
-        <div class="ph ph--center" data-label="Hero — facility / clean water"></div>
       </div>
     </div>
   </section>

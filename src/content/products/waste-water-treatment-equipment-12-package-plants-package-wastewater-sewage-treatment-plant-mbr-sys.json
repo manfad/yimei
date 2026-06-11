@@ -1,0 +1,43 @@
+{
+  "id": "1jybhm",
+  "title": "Package Plants Package Wastewater Sewage Treatment Plant Mbr Sys",
+  "category": "waste-water-treatment-equipment",
+  "summary": "A package sewage treatment plant that treats wastewater for properties not connected to mains drainage, combining the activated sludge microbiological method with a biological membrane (MBBR) process using biological carriers for efficient biochemical treatment.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/12-package-plants-package-wastewater-sewage-treatment-plant-mbr-sys/01.png",
+    "/images/products/waste-water-treatment-equipment/12-package-plants-package-wastewater-sewage-treatment-plant-mbr-sys/04.png",
+    "/images/products/waste-water-treatment-equipment/12-package-plants-package-wastewater-sewage-treatment-plant-mbr-sys/06.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/12-package-plants-package-wastewater-sewage-treatment-plant-mbr-sys/01.png",
+  "bullets": [
+    "No odours, no chemicals",
+    "Fully automatic, stable operation",
+    "Low operating cost, minimal maintenance",
+    "Above-ground or underground installation"
+  ],
+  "specs": [
+    {
+      "label": "Population range",
+      "value": "1-20 persons (DMS2-DMS5)"
+    },
+    {
+      "label": "Max organic loading",
+      "value": "360-1200 g BOD/day"
+    },
+    {
+      "label": "Blower motor size",
+      "value": "0.105-0.216 kW (single phase)"
+    },
+    {
+      "label": "Effluent standard",
+      "value": "20mg/l BOD, 30mg/l SS, 20mg/l Ammoniacal Nitrogen"
+    },
+    {
+      "label": "De-sludge interval",
+      "value": "Up to 3 years (DMS range)"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 45
+}

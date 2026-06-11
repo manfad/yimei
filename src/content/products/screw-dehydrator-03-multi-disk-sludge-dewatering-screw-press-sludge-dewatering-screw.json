@@ -1,0 +1,46 @@
+{
+  "id": "ybyv88",
+  "title": "Multi Disk Sludge Dewatering Screw Press Sludge Dewatering Screw",
+  "category": "screw-dehydrator",
+  "summary": "A multi-disk screw press for solid-liquid separation that dewaters municipal and industrial sludge using the extrusion force created by the changing screw diameter and pitch. It suits a wide concentration range and offers self-cleaning operation with low energy and water consumption.",
+  "images": [
+    "/images/products/screw-dehydrator/03-multi-disk-sludge-dewatering-screw-press-sludge-dewatering-screw/01.png",
+    "/images/products/screw-dehydrator/03-multi-disk-sludge-dewatering-screw-press-sludge-dewatering-screw/02.png",
+    "/images/products/screw-dehydrator/03-multi-disk-sludge-dewatering-screw-press-sludge-dewatering-screw/03.png",
+    "/images/products/screw-dehydrator/03-multi-disk-sludge-dewatering-screw-press-sludge-dewatering-screw/04.png",
+    "/images/products/screw-dehydrator/03-multi-disk-sludge-dewatering-screw-press-sludge-dewatering-screw/05.png",
+    "/images/products/screw-dehydrator/03-multi-disk-sludge-dewatering-screw-press-sludge-dewatering-screw/06.png"
+  ],
+  "featuredImage": "/images/products/screw-dehydrator/03-multi-disk-sludge-dewatering-screw-press-sludge-dewatering-screw/01.png",
+  "bullets": [
+    "Self-cleaning, anti-clogging design",
+    "Handles low to high concentration sludge",
+    "SS304 stainless steel construction",
+    "Low energy and water consumption"
+  ],
+  "specs": [
+    {
+      "label": "Model Range",
+      "value": "YMDL101 to YMDL403A"
+    },
+    {
+      "label": "Material",
+      "value": "SS304 Stainless Steel"
+    },
+    {
+      "label": "Capacity (YMDL101)",
+      "value": "6-12 kg/h dry solids; 3 m³/h at 2000 mg/L"
+    },
+    {
+      "label": "Capacity (YMDL403A)",
+      "value": "180-1000 kg/h dry solids; 72 m³/h at 2000 mg/L"
+    },
+    {
+      "label": "Sludge Concentration",
+      "value": "2000-50000 mg/L"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 26
+}

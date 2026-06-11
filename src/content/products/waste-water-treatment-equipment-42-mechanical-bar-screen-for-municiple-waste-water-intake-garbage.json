@@ -1,0 +1,48 @@
+{
+  "id": "tfnmm0",
+  "title": "Mechanical Bar Screen For Municiple Waste Water Intake Garbage",
+  "category": "waste-water-treatment-equipment",
+  "summary": "A rotary mechanical bar screen that provides solid-liquid separation, continuously and automatically removing assorted sundries from the fluid. It is used in municipal wastewater treatment and water intake systems.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/42-mechanical-bar-screen-for-municiple-waste-water-intake-garbage/01.png",
+    "/images/products/waste-water-treatment-equipment/42-mechanical-bar-screen-for-municiple-waste-water-intake-garbage/02.png",
+    "/images/products/waste-water-treatment-equipment/42-mechanical-bar-screen-for-municiple-waste-water-intake-garbage/04.png",
+    "/images/products/waste-water-treatment-equipment/42-mechanical-bar-screen-for-municiple-waste-water-intake-garbage/05.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/42-mechanical-bar-screen-for-municiple-waste-water-intake-garbage/01.png",
+  "bullets": [
+    "Fully automatic, high separation efficiency",
+    "Low power consumption and minimal noise",
+    "Good corrosion resistance with overload protection",
+    "Adjustable intervals and manual control"
+  ],
+  "specs": [
+    {
+      "label": "Model",
+      "value": "YMHG-600"
+    },
+    {
+      "label": "Installation Angle",
+      "value": "60°-80°"
+    },
+    {
+      "label": "Power",
+      "value": "1.1-2.2 kW"
+    },
+    {
+      "label": "Screen Width",
+      "value": "600 mm"
+    },
+    {
+      "label": "Ditch Width",
+      "value": "700 mm"
+    },
+    {
+      "label": "Certification",
+      "value": "CE, ISO9001"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 75
+}

@@ -2,27 +2,45 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHero from '../../components/PageHero.astro';
 import ProductCard from '../../components/ProductCard.astro';
-import { categoryName } from '../../data/categories';
-import { products } from '../../data/products';
+import { getCollection } from 'astro:content';
+import { byOrderThenName, categoryName, toProduct } from '../../lib/catalog';
 
-export function getStaticPaths() {
-  return products.map((p) => ({ params: { id: p.id }, props: { product: p } }));
+export async function getStaticPaths() {
+  const products = (await getCollection('products', ({ data }) => !data.draft))
+    .map(toProduct)
+    .sort(byOrderThenName);
+
+  return products.map((product) => {
+    const related = products.filter((x) => x.cat === product.cat && x.id !== product.id).slice(0, 3);
+    if (related.length < 3) {
+      for (const candidate of products) {
+        if (related.length >= 3) break;
+        if (candidate.id !== product.id && !related.includes(candidate)) related.push(candidate);
+      }
+    }
+    return { params: { id: product.id }, props: { product, related } };
+  });
 }
 
-const { product } = Astro.props;
-
-let related = products.filter((x) => x.cat === product.cat && x.id !== product.id).slice(0, 3);
-if (related.length < 3) {
-  for (const x of products) {
-    if (related.length >= 3) break;
-    if (x.id !== product.id && !related.includes(x)) related.push(x);
-  }
-}
+const { product, related } = Astro.props;
+const galleryImages = product.images.length > 0 ? product.images : product.featuredImage ? [product.featuredImage] : [];
+// Thumbnail row holds 4 tiles. When there are more images than that, show the
+// first 3 thumbs plus a "+N" tile that reveals the rest on click.
+const THUMB_TILES = 4;
+const collapseThumbs = galleryImages.length > THUMB_TILES;
+const visibleThumbs = collapseThumbs ? THUMB_TILES - 1 : galleryImages.length;
 ---
 
 <BaseLayout title={`${product.name} — Yimei Environment Protection`}>
   <section class="section">
     <div class="container">
+      <a class="back-link" href="/products" data-back>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M19 12H5"></path>
+          <path d="m12 19-7-7 7-7"></path>
+        </svg>
+        <span>Back to products</span>
+      </a>
       <PageHero
         compact
         crumbs={[
@@ -34,16 +52,41 @@ if (related.length < 3) {
 
       <div class="detail-grid">
         <div class="gallery" data-gallery>
-          <div class="ph g-main" data-gallery-main data-label={`${product.name} — photo 1`}></div>
-          <div class="g-thumbs">
+          {
+            galleryImages[0] ? (
+              <img class="g-main media-frame media-frame--contain is-zoomable" src={galleryImages[0]} alt={product.name} data-gallery-main />
+            ) : (
+              <div class="ph g-main" data-gallery-main data-label={`${product.name} - photo 1`} />
+            )
+          }
+          <div class="g-thumbs" data-gallery-thumbs>
             {
-              [1, 2, 3, 4].map((i) => (
-                <div
-                  class:list={['ph', 'g-thumb', 'ph--center', { 'is-active': i === 1 }]}
-                  data-gallery-thumb
-                  data-label={`${product.name} — photo ${i}`}
-                />
-              ))
+              galleryImages.length > 0
+                ? galleryImages.map((image, i) => (
+                    <button
+                      type="button"
+                      class:list={['g-thumb', 'media-thumb', { 'is-active': i === 0 }, { 'is-hidden': collapseThumbs && i >= visibleThumbs }]}
+                      data-gallery-thumb
+                      data-gallery-src={image}
+                      data-gallery-label={`${product.name} - photo ${i + 1}`}
+                    >
+                      <img src={image} alt="" loading="lazy" decoding="async" />
+                    </button>
+                  ))
+                : [1, 2, 3, 4].map((i) => (
+                    <div
+                      class:list={['ph', 'g-thumb', 'ph--center', { 'is-active': i === 1 }]}
+                      data-gallery-thumb
+                      data-label={`${product.name} - photo ${i}`}
+                    />
+                  ))
+            }
+            {
+              collapseThumbs && (
+                <button type="button" class="g-thumb g-thumb-more" data-gallery-more>
+                  +{galleryImages.length - visibleThumbs}
+                </button>
+              )
             }
           </div>
         </div>
@@ -95,8 +138,32 @@ if (related.length < 3) {
       }
     </div>
   </section>
+
+  <div class="lightbox" data-lightbox hidden>
+    <button type="button" class="lb-close" data-lb-close aria-label="Close">&times;</button>
+    <button type="button" class="lb-nav lb-prev" data-lb-prev aria-label="Previous image">&lsaquo;</button>
+    <img class="lb-img" data-lb-img src="" alt="" />
+    <button type="button" class="lb-nav lb-next" data-lb-next aria-label="Next image">&rsaquo;</button>
+    <div class="lb-counter" data-lb-counter></div>
+  </div>
 </BaseLayout>
 
 <script>
   import '../../scripts/gallery';
+
+  function bindBack() {
+    document.querySelectorAll('[data-back]').forEach((el) => {
+      if (el.dataset.backBound) return;
+      el.dataset.backBound = 'true';
+      el.addEventListener('click', (e) => {
+        if (history.length > 1 && document.referrer && new URL(document.referrer).origin === location.origin) {
+          e.preventDefault();
+          history.back();
+        }
+      });
+    });
+  }
+
+  bindBack();
+  document.addEventListener('astro:page-load', bindBack);
 </script>

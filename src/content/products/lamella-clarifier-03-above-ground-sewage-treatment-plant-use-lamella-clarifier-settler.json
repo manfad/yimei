@@ -1,0 +1,42 @@
+{
+  "id": "1v2woa",
+  "title": "Above Ground Sewage Treatment Plant Use Lamella Clarifier Settler",
+  "category": "lamella-clarifier",
+  "summary": "A high-efficiency combined inclined-plate settling tank for above-ground sewage treatment plants that improves sedimentation efficiency by 50-60% and boosts treatment capacity 3-5 times compared with conventional settling tanks.",
+  "images": [
+    "/images/products/lamella-clarifier/03-above-ground-sewage-treatment-plant-use-lamella-clarifier-settler/01.png",
+    "/images/products/lamella-clarifier/03-above-ground-sewage-treatment-plant-use-lamella-clarifier-settler/02.png",
+    "/images/products/lamella-clarifier/03-above-ground-sewage-treatment-plant-use-lamella-clarifier-settler/03.png",
+    "/images/products/lamella-clarifier/03-above-ground-sewage-treatment-plant-use-lamella-clarifier-settler/04.png",
+    "/images/products/lamella-clarifier/03-above-ground-sewage-treatment-plant-use-lamella-clarifier-settler/05.png",
+    "/images/products/lamella-clarifier/03-above-ground-sewage-treatment-plant-use-lamella-clarifier-settler/06.png"
+  ],
+  "featuredImage": "/images/products/lamella-clarifier/03-above-ground-sewage-treatment-plant-use-lamella-clarifier-settler/01.png",
+  "bullets": [
+    "Simple structure without wearing parts",
+    "Steady, easy operation",
+    "Small footprint, low investment, high efficiency",
+    "Short retention time, high sediment efficiency"
+  ],
+  "specs": [
+    {
+      "label": "Model range",
+      "value": "YMXG-5 to YMXG-50"
+    },
+    {
+      "label": "Treatment capacity",
+      "value": "5-50 m³/h"
+    },
+    {
+      "label": "Equipment size",
+      "value": "2.2×2×3.5 m up to 12×3.5×4.5 m"
+    },
+    {
+      "label": "Inclined tube dip angle",
+      "value": "60°"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 12
+}

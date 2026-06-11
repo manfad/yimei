@@ -1,0 +1,46 @@
+{
+  "id": "1a3am8",
+  "title": "Plate And Frame Press Machine For Pottery Cast Iron Sludge Dehydr",
+  "category": "air-floating-equipment",
+  "summary": "An intermittent solid-liquid separation machine used to filter viscous fine materials, widely applied in chemical, ceramic, pharmaceutical, food, and sewage treatment industries.",
+  "images": [
+    "/images/products/air-floating-equipment/07-plate-and-frame-press-machine-for-pottery-cast-iron-sludge-dehydr/01.png",
+    "/images/products/air-floating-equipment/07-plate-and-frame-press-machine-for-pottery-cast-iron-sludge-dehydr/02.png",
+    "/images/products/air-floating-equipment/07-plate-and-frame-press-machine-for-pottery-cast-iron-sludge-dehydr/03.png",
+    "/images/products/air-floating-equipment/07-plate-and-frame-press-machine-for-pottery-cast-iron-sludge-dehydr/04.png",
+    "/images/products/air-floating-equipment/07-plate-and-frame-press-machine-for-pottery-cast-iron-sludge-dehydr/05.png",
+    "/images/products/air-floating-equipment/07-plate-and-frame-press-machine-for-pottery-cast-iron-sludge-dehydr/06.png"
+  ],
+  "featuredImage": "/images/products/air-floating-equipment/07-plate-and-frame-press-machine-for-pottery-cast-iron-sludge-dehydr/01.png",
+  "bullets": [
+    "Good separation effect, wide adaptability",
+    "Filtering area from 0.5 to 500 m²",
+    "Cast iron, polypropylene, fiberglass or stainless steel",
+    "Filter pressure range 0.2–1.6 MPa"
+  ],
+  "specs": [
+    {
+      "label": "Filter Area",
+      "value": "0.5–500 m²"
+    },
+    {
+      "label": "Filter Pressure",
+      "value": "0.2–1.6 MPa"
+    },
+    {
+      "label": "Plate Size",
+      "value": "500×500 / 700×700 / 890×890 mm"
+    },
+    {
+      "label": "Material",
+      "value": "Cast iron, polypropylene, fiberglass, stainless steel"
+    },
+    {
+      "label": "Model Example",
+      "value": "YMY80/890-35U (80 m², weight 4560 kg)"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 7
+}

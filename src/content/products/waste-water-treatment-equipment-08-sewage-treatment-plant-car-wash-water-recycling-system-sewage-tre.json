@@ -1,0 +1,49 @@
+{
+  "id": "uqv2ak",
+  "title": "Sewage Treatment Plant Car Wash Water Recycling System Sewage Tre",
+  "category": "waste-water-treatment-equipment",
+  "summary": "An integrated biochemical wastewater treatment system that combines activated sludge and membrane technology to treat and recycle car wash, domestic, industrial, and commercial sewage.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/08-sewage-treatment-plant-car-wash-water-recycling-system-sewage-tre/02.png",
+    "/images/products/waste-water-treatment-equipment/08-sewage-treatment-plant-car-wash-water-recycling-system-sewage-tre/03.png",
+    "/images/products/waste-water-treatment-equipment/08-sewage-treatment-plant-car-wash-water-recycling-system-sewage-tre/04.png",
+    "/images/products/waste-water-treatment-equipment/08-sewage-treatment-plant-car-wash-water-recycling-system-sewage-tre/05.png",
+    "/images/products/waste-water-treatment-equipment/08-sewage-treatment-plant-car-wash-water-recycling-system-sewage-tre/06.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/08-sewage-treatment-plant-car-wash-water-recycling-system-sewage-tre/02.png",
+  "bullets": [
+    "Grade 1A effluent quality",
+    "Above-ground or underground installation",
+    "Fully automatic operation",
+    "Handles domestic and industrial wastewater"
+  ],
+  "specs": [
+    {
+      "label": "Model Range",
+      "value": "YMSZ-1 through YMSZ-30"
+    },
+    {
+      "label": "Capacity",
+      "value": "1–30 m³/h"
+    },
+    {
+      "label": "Standard Dimensions",
+      "value": "11.6m (L) × 2.2m (W) × 2.5m (H)"
+    },
+    {
+      "label": "Air Blower Power",
+      "value": "0.4–5.5 kW"
+    },
+    {
+      "label": "Total Weight",
+      "value": "5.5–29 tonnes"
+    },
+    {
+      "label": "Treatment Processes",
+      "value": "AO, MBBR, SBR, MBR options"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 41
+}

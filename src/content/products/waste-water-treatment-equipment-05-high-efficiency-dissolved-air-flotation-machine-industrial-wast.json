@@ -1,0 +1,40 @@
+{
+  "id": "18gevu",
+  "title": "High Efficiency Dissolved Air Flotation Machine Industrial Wast",
+  "category": "waste-water-treatment-equipment",
+  "summary": "A dissolved air flotation (DAF) machine that uses microbubbles to adsorb flocculated suspended matter and float it to the surface, removing SS and CODcr from industrial wastewater.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/05-high-efficiency-dissolved-air-flotation-machine-industrial-wast/01.png",
+    "/images/products/waste-water-treatment-equipment/05-high-efficiency-dissolved-air-flotation-machine-industrial-wast/02.png",
+    "/images/products/waste-water-treatment-equipment/05-high-efficiency-dissolved-air-flotation-machine-industrial-wast/04.png",
+    "/images/products/waste-water-treatment-equipment/05-high-efficiency-dissolved-air-flotation-machine-industrial-wast/06.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/05-high-efficiency-dissolved-air-flotation-machine-industrial-wast/01.png",
+  "bullets": [
+    "Dissolved gas efficiency and release rate up to 99%",
+    "Low voltage operation",
+    "Tiny bubbles improve SS removal effect",
+    "Compact design for above-ground or underground installation"
+  ],
+  "specs": [
+    {
+      "label": "Operating pressure",
+      "value": "0.35 MPa"
+    },
+    {
+      "label": "Dissolved gas efficiency",
+      "value": "Up to 99%"
+    },
+    {
+      "label": "Dissolving efficiency",
+      "value": "80-100%"
+    },
+    {
+      "label": "Effluent quality",
+      "value": "Grade 1A"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 38
+}

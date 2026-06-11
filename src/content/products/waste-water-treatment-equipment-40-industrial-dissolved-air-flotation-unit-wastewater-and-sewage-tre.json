@@ -1,0 +1,50 @@
+{
+  "id": "x1l95h",
+  "title": "Industrial Dissolved Air Flotation Unit Wastewater And Sewage Tre",
+  "category": "waste-water-treatment-equipment",
+  "summary": "A dissolved air flotation (DAF) unit that removes suspended solids and contaminants from wastewater by dissolving air under pressure and releasing microbubbles that float impurities to the surface for removal. Used in industrial wastewater and sewage treatment plants.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/40-industrial-dissolved-air-flotation-unit-wastewater-and-sewage-tre/01.png",
+    "/images/products/waste-water-treatment-equipment/40-industrial-dissolved-air-flotation-unit-wastewater-and-sewage-tre/02.png",
+    "/images/products/waste-water-treatment-equipment/40-industrial-dissolved-air-flotation-unit-wastewater-and-sewage-tre/03.png",
+    "/images/products/waste-water-treatment-equipment/40-industrial-dissolved-air-flotation-unit-wastewater-and-sewage-tre/04.png",
+    "/images/products/waste-water-treatment-equipment/40-industrial-dissolved-air-flotation-unit-wastewater-and-sewage-tre/05.png",
+    "/images/products/waste-water-treatment-equipment/40-industrial-dissolved-air-flotation-unit-wastewater-and-sewage-tre/06.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/40-industrial-dissolved-air-flotation-unit-wastewater-and-sewage-tre/01.png",
+  "bullets": [
+    "99% dissolved gas efficiency and release rate",
+    "Automatic operation, stable Grade 1A effluent",
+    "Compact above- or underground installation",
+    "Three times more efficient than traditional flotation"
+  ],
+  "specs": [
+    {
+      "label": "Models",
+      "value": "YMRF-1 to YMRF-100"
+    },
+    {
+      "label": "Disposal Capacity",
+      "value": "1-100 m³/h"
+    },
+    {
+      "label": "Motor Power",
+      "value": "1.5-15 kW"
+    },
+    {
+      "label": "Equipment Weight",
+      "value": "300-11,000 kg"
+    },
+    {
+      "label": "Operating Pressure",
+      "value": "0.35 MPa"
+    },
+    {
+      "label": "Material",
+      "value": "Carbon steel with epoxy anti-corrosion coating or fiberglass"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 73
+}

@@ -1,0 +1,41 @@
+{
+  "id": "9s86as",
+  "title": "Wastewater Mechanical Center Flow Intake Travelling Flat Bar Band",
+  "category": "waste-water-treatment-equipment",
+  "summary": "Wastewater Mechanical Center Flow Intake Travelling Flat Bar Band for wastewater pre-treatment screening and solids removal.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/27-wastewater-mechanical-center-flow-intake-travelling-flat-bar-band/02.png",
+    "/images/products/waste-water-treatment-equipment/27-wastewater-mechanical-center-flow-intake-travelling-flat-bar-band/03.png",
+    "/images/products/waste-water-treatment-equipment/27-wastewater-mechanical-center-flow-intake-travelling-flat-bar-band/04.png",
+    "/images/products/waste-water-treatment-equipment/27-wastewater-mechanical-center-flow-intake-travelling-flat-bar-band/05.png",
+    "/images/products/waste-water-treatment-equipment/27-wastewater-mechanical-center-flow-intake-travelling-flat-bar-band/06.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/27-wastewater-mechanical-center-flow-intake-travelling-flat-bar-band/02.png",
+  "bullets": [
+    "Industrial wastewater treatment equipment",
+    "Configurable process integration",
+    "Suitable for packaged treatment flows",
+    "Project-specific capacity and layout"
+  ],
+  "specs": [
+    {
+      "label": "Category",
+      "value": "Waste Water Treatment Equipment"
+    },
+    {
+      "label": "Application",
+      "value": "Wastewater treatment"
+    },
+    {
+      "label": "Configuration",
+      "value": "Project-specific"
+    },
+    {
+      "label": "Material",
+      "value": "SS / coated steel options"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 60
+}

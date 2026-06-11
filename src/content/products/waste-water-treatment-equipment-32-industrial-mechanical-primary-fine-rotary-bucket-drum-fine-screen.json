@@ -1,0 +1,48 @@
+{
+  "id": "1qlvbo",
+  "title": "Industrial Mechanical Primary Fine Rotary Bucket Drum Fine Screen",
+  "category": "waste-water-treatment-equipment",
+  "summary": "A continuous rotary drum fine screen for sewage treatment plants that removes suspended solids from wastewater, eliminating 30-60% of organic or inorganic suspended solids to reduce the load on downstream treatment stages.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/32-industrial-mechanical-primary-fine-rotary-bucket-drum-fine-screen/01.png",
+    "/images/products/waste-water-treatment-equipment/32-industrial-mechanical-primary-fine-rotary-bucket-drum-fine-screen/02.png",
+    "/images/products/waste-water-treatment-equipment/32-industrial-mechanical-primary-fine-rotary-bucket-drum-fine-screen/03.png",
+    "/images/products/waste-water-treatment-equipment/32-industrial-mechanical-primary-fine-rotary-bucket-drum-fine-screen/04.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/32-industrial-mechanical-primary-fine-rotary-bucket-drum-fine-screen/01.png",
+  "bullets": [
+    "Fully automatic, stable operation",
+    "Stainless steel corrosion resistance",
+    "Strong auto-cleaning, anti-clogging",
+    "Compact above- or underground install"
+  ],
+  "specs": [
+    {
+      "label": "Model",
+      "value": "YMTP350×600 to YMTP800×1830"
+    },
+    {
+      "label": "Drum Diameter",
+      "value": "350-800 mm"
+    },
+    {
+      "label": "Capacity",
+      "value": "8-912 m³/h"
+    },
+    {
+      "label": "Screen Gap",
+      "value": "0.25-2.5 mm"
+    },
+    {
+      "label": "Motor Power",
+      "value": "0.25-1.1 kW"
+    },
+    {
+      "label": "Material",
+      "value": "Stainless steel"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 65
+}

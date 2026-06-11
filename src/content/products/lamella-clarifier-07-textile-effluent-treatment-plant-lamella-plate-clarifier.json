@@ -1,0 +1,42 @@
+{
+  "id": "usi13i",
+  "title": "Textile Effluent Treatment Plant Lamella Plate Clarifier",
+  "category": "lamella-clarifier",
+  "summary": "Textile Effluent Treatment Plant Lamella Plate Clarifier for compact sedimentation, clarification, and wastewater treatment flows.",
+  "images": [
+    "/images/products/lamella-clarifier/07-textile-effluent-treatment-plant-lamella-plate-clarifier/01.png",
+    "/images/products/lamella-clarifier/07-textile-effluent-treatment-plant-lamella-plate-clarifier/02.png",
+    "/images/products/lamella-clarifier/07-textile-effluent-treatment-plant-lamella-plate-clarifier/03.png",
+    "/images/products/lamella-clarifier/07-textile-effluent-treatment-plant-lamella-plate-clarifier/04.png",
+    "/images/products/lamella-clarifier/07-textile-effluent-treatment-plant-lamella-plate-clarifier/05.png",
+    "/images/products/lamella-clarifier/07-textile-effluent-treatment-plant-lamella-plate-clarifier/06.png"
+  ],
+  "featuredImage": "/images/products/lamella-clarifier/07-textile-effluent-treatment-plant-lamella-plate-clarifier/01.png",
+  "bullets": [
+    "Inclined-plate clarification design",
+    "Compact settling footprint",
+    "Supports suspended-solids reduction",
+    "Configurable tank and material options"
+  ],
+  "specs": [
+    {
+      "label": "Category",
+      "value": "Lamella Clarifier"
+    },
+    {
+      "label": "Application",
+      "value": "Wastewater treatment"
+    },
+    {
+      "label": "Configuration",
+      "value": "Project-specific"
+    },
+    {
+      "label": "Material",
+      "value": "SS / coated steel options"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 16
+}

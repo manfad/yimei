@@ -1,0 +1,50 @@
+{
+  "id": "16x08n",
+  "title": "Slaughtering Stainless Steel Preliminary Waste Water Treatment Au",
+  "category": "waste-water-treatment-equipment",
+  "summary": "A continuous stainless steel drum screen for preliminary wastewater treatment that removes suspended solids from sewage, reducing the load on subsequent treatment stages. Suitable for small to medium-sized sewage plants and industries such as slaughtering and poultry processing.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/31-slaughtering-stainless-steel-preliminary-waste-water-treatment-au/01.png",
+    "/images/products/waste-water-treatment-equipment/31-slaughtering-stainless-steel-preliminary-waste-water-treatment-au/02.png",
+    "/images/products/waste-water-treatment-equipment/31-slaughtering-stainless-steel-preliminary-waste-water-treatment-au/03.png",
+    "/images/products/waste-water-treatment-equipment/31-slaughtering-stainless-steel-preliminary-waste-water-treatment-au/04.png",
+    "/images/products/waste-water-treatment-equipment/31-slaughtering-stainless-steel-preliminary-waste-water-treatment-au/05.png",
+    "/images/products/waste-water-treatment-equipment/31-slaughtering-stainless-steel-preliminary-waste-water-treatment-au/06.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/31-slaughtering-stainless-steel-preliminary-waste-water-treatment-au/01.png",
+  "bullets": [
+    "Stainless steel, corrosion resistant",
+    "Fully automatic with strong self-cleaning",
+    "Compact, space-efficient design",
+    "Removes 30%-60% of suspended solids"
+  ],
+  "specs": [
+    {
+      "label": "Model",
+      "value": "YMTP350x600 - YMTP800x1830"
+    },
+    {
+      "label": "Drum Diameter",
+      "value": "350-800 mm"
+    },
+    {
+      "label": "Drum Length",
+      "value": "600-1830 mm"
+    },
+    {
+      "label": "Capacity",
+      "value": "8-912 m3/h"
+    },
+    {
+      "label": "Screen Spacing",
+      "value": "0.25-2.5 mm"
+    },
+    {
+      "label": "Motor Power",
+      "value": "0.25-1.1 kW"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 64
+}

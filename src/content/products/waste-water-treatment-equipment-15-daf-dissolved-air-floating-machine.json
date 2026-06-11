@@ -1,0 +1,46 @@
+{
+  "id": "kubv4b",
+  "title": "Daf Dissolved Air Floating Machine",
+  "category": "waste-water-treatment-equipment",
+  "summary": "Dissolved air flotation (DAF) solid-liquid separation equipment that uses pressurized air to form microbubbles which lift suspended solids to the surface for removal. Used for industrial wastewater treatment in food, dairy, steel and manufacturing plants.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/15-daf-dissolved-air-floating-machine/01.png",
+    "/images/products/waste-water-treatment-equipment/15-daf-dissolved-air-floating-machine/02.png",
+    "/images/products/waste-water-treatment-equipment/15-daf-dissolved-air-floating-machine/03.png",
+    "/images/products/waste-water-treatment-equipment/15-daf-dissolved-air-floating-machine/04.png",
+    "/images/products/waste-water-treatment-equipment/15-daf-dissolved-air-floating-machine/05.png",
+    "/images/products/waste-water-treatment-equipment/15-daf-dissolved-air-floating-machine/06.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/15-daf-dissolved-air-floating-machine/01.png",
+  "bullets": [
+    "PLC controlled operation",
+    "Pressure vessel equipped",
+    "Solid-liquid separation by air flotation",
+    "For food, dairy and steel plant effluent"
+  ],
+  "specs": [
+    {
+      "label": "Type",
+      "value": "Solid-liquid separation equipment"
+    },
+    {
+      "label": "Flow Rate",
+      "value": "500 L/Hour"
+    },
+    {
+      "label": "Power",
+      "value": "70 KW"
+    },
+    {
+      "label": "Voltage",
+      "value": "220 V"
+    },
+    {
+      "label": "Application",
+      "value": "Industrial wastewater treatment"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 48
+}

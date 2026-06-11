@@ -1,0 +1,44 @@
+{
+  "id": "1telpd",
+  "title": "Small Footprint Volute Type Multi Disc Dewatering Screw Press Mac",
+  "category": "screw-dehydrator",
+  "summary": "A multi-plate (volute) screw press dewatering machine that uses screw extrusion for solid-liquid separation of sludge. It is applied to municipal and industrial wastewater sludge dehydration.",
+  "images": [
+    "/images/products/screw-dehydrator/09-small-footprint-volute-type-multi-disc-dewatering-screw-press-mac/01.png",
+    "/images/products/screw-dehydrator/09-small-footprint-volute-type-multi-disc-dewatering-screw-press-mac/02.png",
+    "/images/products/screw-dehydrator/09-small-footprint-volute-type-multi-disc-dewatering-screw-press-mac/03.png",
+    "/images/products/screw-dehydrator/09-small-footprint-volute-type-multi-disc-dewatering-screw-press-mac/04.png"
+  ],
+  "featuredImage": "/images/products/screw-dehydrator/09-small-footprint-volute-type-multi-disc-dewatering-screw-press-mac/01.png",
+  "bullets": [
+    "Compact, small-footprint design",
+    "Fully automatic, stable operation",
+    "Clog-free self-cleaning structure",
+    "Lower energy and water consumption"
+  ],
+  "specs": [
+    {
+      "label": "Models Available",
+      "value": "YMDL101 to YMDL403A"
+    },
+    {
+      "label": "Throughput (Low Concentration)",
+      "value": "3-72 m³/h"
+    },
+    {
+      "label": "Throughput (High Concentration)",
+      "value": "0.3-15 m³/h"
+    },
+    {
+      "label": "Sludge Treatment Range",
+      "value": "2000-50000 mg/L"
+    },
+    {
+      "label": "Dry Solids Output",
+      "value": "6-1000 kg/h"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 32
+}

@@ -1,0 +1,42 @@
+{
+  "id": "1mvy4i",
+  "title": "Lamella Clarifier Inclined Plate Sediment Tank High Speed Suspend",
+  "category": "lamella-clarifier",
+  "summary": "Lamella Clarifier Inclined Plate Sediment Tank High Speed Suspend for compact sedimentation, clarification, and wastewater treatment flows.",
+  "images": [
+    "/images/products/lamella-clarifier/14-lamella-clarifier-inclined-plate-sediment-tank-high-speed-suspend/01.png",
+    "/images/products/lamella-clarifier/14-lamella-clarifier-inclined-plate-sediment-tank-high-speed-suspend/02.png",
+    "/images/products/lamella-clarifier/14-lamella-clarifier-inclined-plate-sediment-tank-high-speed-suspend/03.png",
+    "/images/products/lamella-clarifier/14-lamella-clarifier-inclined-plate-sediment-tank-high-speed-suspend/04.png",
+    "/images/products/lamella-clarifier/14-lamella-clarifier-inclined-plate-sediment-tank-high-speed-suspend/05.png",
+    "/images/products/lamella-clarifier/14-lamella-clarifier-inclined-plate-sediment-tank-high-speed-suspend/06.png"
+  ],
+  "featuredImage": "/images/products/lamella-clarifier/14-lamella-clarifier-inclined-plate-sediment-tank-high-speed-suspend/01.png",
+  "bullets": [
+    "Inclined-plate clarification design",
+    "Compact settling footprint",
+    "Supports suspended-solids reduction",
+    "Configurable tank and material options"
+  ],
+  "specs": [
+    {
+      "label": "Category",
+      "value": "Lamella Clarifier"
+    },
+    {
+      "label": "Application",
+      "value": "Wastewater treatment"
+    },
+    {
+      "label": "Configuration",
+      "value": "Project-specific"
+    },
+    {
+      "label": "Material",
+      "value": "SS / coated steel options"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 23
+}

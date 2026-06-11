@@ -1,0 +1,48 @@
+{
+  "id": "mqaote",
+  "title": "High Quality Mechanical External Mesh Rotary Drum Screen Filter M",
+  "category": "waste-water-treatment-equipment",
+  "summary": "A rotating drum microstrainer that separates solids from liquids through mesh screening, used in wastewater pretreatment for municipal sewage and industrial applications.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/33-high-quality-mechanical-external-mesh-rotary-drum-screen-filter-m/02.png",
+    "/images/products/waste-water-treatment-equipment/33-high-quality-mechanical-external-mesh-rotary-drum-screen-filter-m/03.png",
+    "/images/products/waste-water-treatment-equipment/33-high-quality-mechanical-external-mesh-rotary-drum-screen-filter-m/05.png",
+    "/images/products/waste-water-treatment-equipment/33-high-quality-mechanical-external-mesh-rotary-drum-screen-filter-m/06.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/33-high-quality-mechanical-external-mesh-rotary-drum-screen-filter-m/02.png",
+  "bullets": [
+    "Simple structure, stable operation, long life",
+    "Large filtration capacity and high efficiency",
+    "Fiber recovery over 80%",
+    "Compact footprint with low operating cost"
+  ],
+  "specs": [
+    {
+      "label": "Models",
+      "value": "YMWL-600 to YMWL-1400"
+    },
+    {
+      "label": "Filtering Area",
+      "value": "5-18.5 m²"
+    },
+    {
+      "label": "Mesh Size",
+      "value": "60-250 microns"
+    },
+    {
+      "label": "Water Flow Rate",
+      "value": "50-380 m³/h"
+    },
+    {
+      "label": "Motor Power",
+      "value": "1.1-2.2 kW"
+    },
+    {
+      "label": "Rotating Speed",
+      "value": "4-8 rpm"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 66
+}

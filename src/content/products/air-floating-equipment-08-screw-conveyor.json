@@ -1,0 +1,40 @@
+{
+  "id": "2kibvf",
+  "title": "Screw Conveyor",
+  "category": "air-floating-equipment",
+  "summary": "Screw Conveyor for dissolved air flotation and industrial wastewater separation.",
+  "images": [
+    "/images/products/air-floating-equipment/08-screw-conveyor/01.png",
+    "/images/products/air-floating-equipment/08-screw-conveyor/02.png",
+    "/images/products/air-floating-equipment/08-screw-conveyor/03.png",
+    "/images/products/air-floating-equipment/08-screw-conveyor/04.png"
+  ],
+  "featuredImage": "/images/products/air-floating-equipment/08-screw-conveyor/01.png",
+  "bullets": [
+    "Solid-liquid separation process",
+    "Industrial wastewater treatment use",
+    "Project-specific equipment configuration",
+    "Serviceable mechanical layout"
+  ],
+  "specs": [
+    {
+      "label": "Category",
+      "value": "Air Floating Equipment"
+    },
+    {
+      "label": "Application",
+      "value": "Wastewater treatment"
+    },
+    {
+      "label": "Configuration",
+      "value": "Project-specific"
+    },
+    {
+      "label": "Material",
+      "value": "SS / coated steel options"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 8
+}

@@ -1,0 +1,48 @@
+{
+  "id": "22cyru",
+  "title": "Rotary Drum Filter For Waste Water Wastewater Treatment Plant",
+  "category": "waste-water-treatment-equipment",
+  "summary": "A continuous screening device for industrial and municipal wastewater treatment that removes suspended solids larger than the screen mesh, cutting organic and inorganic particulates by 30-60% before further processing.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/34-rotary-drum-filter-for-waste-water-wastewater-treatment-plant/03.png",
+    "/images/products/waste-water-treatment-equipment/34-rotary-drum-filter-for-waste-water-wastewater-treatment-plant/04.png",
+    "/images/products/waste-water-treatment-equipment/34-rotary-drum-filter-for-waste-water-wastewater-treatment-plant/05.png",
+    "/images/products/waste-water-treatment-equipment/34-rotary-drum-filter-for-waste-water-wastewater-treatment-plant/06.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/34-rotary-drum-filter-for-waste-water-wastewater-treatment-plant/03.png",
+  "bullets": [
+    "Full stainless steel, strong corrosion resistance",
+    "Fully automatic, compact design",
+    "Strong auto-cleaning ability prevents clogging",
+    "Suits paper, leather, food and chemical industries"
+  ],
+  "specs": [
+    {
+      "label": "Models",
+      "value": "YMTP350×600, YMTP610×610, YMTP610×1220, YMTP610×1830, YMTP800×1830"
+    },
+    {
+      "label": "Drum Diameter",
+      "value": "350 / 610 / 800 mm"
+    },
+    {
+      "label": "Motor Power",
+      "value": "0.25 - 1.1 kW"
+    },
+    {
+      "label": "Rotating Speed",
+      "value": "4-20 r/min"
+    },
+    {
+      "label": "Mesh Spacing",
+      "value": "0.25 - 2.5 mm"
+    },
+    {
+      "label": "Material",
+      "value": "Stainless steel"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 67
+}

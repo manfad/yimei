@@ -1,0 +1,49 @@
+{
+  "id": "2ezbtv",
+  "title": "Automatic Polymer Preparation Unit Chemical Polymer Dosing Mixing",
+  "category": "waste-water-treatment-equipment",
+  "summary": "An intelligent, fully automatic system for the continuous dissolution and dosing of dry powder chemical reagents in wastewater treatment, combining water supply, powder dosing, maturation, and automatic control functions.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/41-automatic-polymer-preparation-unit-chemical-polymer-dosing-mixing/01.png",
+    "/images/products/waste-water-treatment-equipment/41-automatic-polymer-preparation-unit-chemical-polymer-dosing-mixing/02.png",
+    "/images/products/waste-water-treatment-equipment/41-automatic-polymer-preparation-unit-chemical-polymer-dosing-mixing/04.png",
+    "/images/products/waste-water-treatment-equipment/41-automatic-polymer-preparation-unit-chemical-polymer-dosing-mixing/05.png",
+    "/images/products/waste-water-treatment-equipment/41-automatic-polymer-preparation-unit-chemical-polymer-dosing-mixing/06.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/41-automatic-polymer-preparation-unit-chemical-polymer-dosing-mixing/01.png",
+  "bullets": [
+    "High degree of automation, PLC controlled",
+    "Spiral feeder with closed-loop speed control",
+    "Three-tank overflow design, compact structure",
+    "24-hour automatic running"
+  ],
+  "specs": [
+    {
+      "label": "Preparation Capacity",
+      "value": "2000 L/h"
+    },
+    {
+      "label": "Total Power",
+      "value": "2.62 kW"
+    },
+    {
+      "label": "Dimensions",
+      "value": "L2400 x W1200 x H1850 mm"
+    },
+    {
+      "label": "Weight",
+      "value": "415 kg"
+    },
+    {
+      "label": "Material",
+      "value": "SS304 or SS316 stainless steel"
+    },
+    {
+      "label": "Control Mode",
+      "value": "Full automatic or semi-automatic"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 74
+}

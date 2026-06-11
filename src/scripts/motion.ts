@@ -16,12 +16,14 @@ function initMotion() {
   mm.add('(prefers-reduced-motion: no-preference)', () => {
     const heroItems = document.querySelectorAll<HTMLElement>('.hero [data-hero-item]');
     if (heroItems.length) {
-      gsap.from(heroItems, {
-        autoAlpha: 0,
-        y: 18,
+      gsap.set(heroItems, { autoAlpha: 0, y: 18 });
+      gsap.to(heroItems, {
+        autoAlpha: 1,
+        y: 0,
         duration: 0.65,
         ease: 'power2.out',
         stagger: 0.1,
+        clearProps: 'transform',
       });
     }
 

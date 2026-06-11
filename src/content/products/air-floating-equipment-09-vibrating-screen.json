@@ -1,0 +1,42 @@
+{
+  "id": "udwncd",
+  "title": "Vibrating Screen",
+  "category": "air-floating-equipment",
+  "summary": "Vibrating Screen for wastewater pre-treatment screening and solids removal.",
+  "images": [
+    "/images/products/air-floating-equipment/09-vibrating-screen/01.png",
+    "/images/products/air-floating-equipment/09-vibrating-screen/02.png",
+    "/images/products/air-floating-equipment/09-vibrating-screen/03.png",
+    "/images/products/air-floating-equipment/09-vibrating-screen/04.png",
+    "/images/products/air-floating-equipment/09-vibrating-screen/05.png",
+    "/images/products/air-floating-equipment/09-vibrating-screen/06.png"
+  ],
+  "featuredImage": "/images/products/air-floating-equipment/09-vibrating-screen/01.png",
+  "bullets": [
+    "Solid-liquid separation process",
+    "Industrial wastewater treatment use",
+    "Project-specific equipment configuration",
+    "Serviceable mechanical layout"
+  ],
+  "specs": [
+    {
+      "label": "Category",
+      "value": "Air Floating Equipment"
+    },
+    {
+      "label": "Application",
+      "value": "Wastewater treatment"
+    },
+    {
+      "label": "Configuration",
+      "value": "Project-specific"
+    },
+    {
+      "label": "Material",
+      "value": "SS / coated steel options"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 9
+}

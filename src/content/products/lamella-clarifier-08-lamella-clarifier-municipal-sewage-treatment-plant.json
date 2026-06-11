@@ -1,0 +1,50 @@
+{
+  "id": "3cm3ov",
+  "title": "Lamella Clarifier Municipal Sewage Treatment Plant",
+  "category": "lamella-clarifier",
+  "summary": "A highly efficient clarification system equipped with dense inclined tube fillers that precipitate suspended impurities from water. It is used across mining, metal finishing, and industrial wastewater treatment applications where solids loading is variable.",
+  "images": [
+    "/images/products/lamella-clarifier/08-lamella-clarifier-municipal-sewage-treatment-plant/01.png",
+    "/images/products/lamella-clarifier/08-lamella-clarifier-municipal-sewage-treatment-plant/02.png",
+    "/images/products/lamella-clarifier/08-lamella-clarifier-municipal-sewage-treatment-plant/03.png",
+    "/images/products/lamella-clarifier/08-lamella-clarifier-municipal-sewage-treatment-plant/04.png",
+    "/images/products/lamella-clarifier/08-lamella-clarifier-municipal-sewage-treatment-plant/05.png",
+    "/images/products/lamella-clarifier/08-lamella-clarifier-municipal-sewage-treatment-plant/06.png"
+  ],
+  "featuredImage": "/images/products/lamella-clarifier/08-lamella-clarifier-municipal-sewage-treatment-plant/01.png",
+  "bullets": [
+    "Efficient purification with stable Grade 1A effluent",
+    "Compact design for above-ground or underground installation",
+    "Fully automatic operation for stable performance",
+    "Service life exceeding 10 years"
+  ],
+  "specs": [
+    {
+      "label": "Dimensions",
+      "value": "5.0 x 2.2 x 2.2 m"
+    },
+    {
+      "label": "Material",
+      "value": "Carbon steel with epoxy resin, fiberglass coating, or SS304"
+    },
+    {
+      "label": "Water Supply Pressure",
+      "value": "0.1-0.2 MPa"
+    },
+    {
+      "label": "Inclination Angle",
+      "value": "60° (standard)"
+    },
+    {
+      "label": "Tube Diameter",
+      "value": "φ50 mm, φ80 mm"
+    },
+    {
+      "label": "Tube Material",
+      "value": "PP, PVC, or FRP"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 17
+}

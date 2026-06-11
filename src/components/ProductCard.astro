@@ -1,6 +1,5 @@
 ---
-import { categoryName } from '../data/categories';
-import type { Product } from '../data/products';
+import { categoryName, type Product } from '../lib/catalog';
 
 interface Props {
   product: Product;
@@ -15,8 +14,17 @@ const { product, hidden = false } = Astro.props;
   href={`/products/${product.id}`}
   data-product-cat={product.cat}
 >
-  <div class="pimg ph ph--center" data-label="img"></div>
-  <div class="pc-cat">{categoryName(product.cat)}</div>
-  <h4>{product.name}</h4>
-  <p>{product.tag}</p>
+  <div class="pcard__media">
+    {
+      product.featuredImage ? (
+        <img class="pimg pimg--photo" src={product.featuredImage} alt="" loading="lazy" decoding="async" />
+      ) : (
+        <div class="pimg ph ph--center" data-label="img" />
+      )
+    }
+  </div>
+  <div class="pcard__body">
+    <div class="pc-cat">{categoryName(product.cat)}</div>
+    <h4>{product.name}</h4>
+  </div>
 </a>

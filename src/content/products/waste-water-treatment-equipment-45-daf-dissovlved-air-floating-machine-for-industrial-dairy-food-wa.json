@@ -1,0 +1,50 @@
+{
+  "id": "2mog9z",
+  "title": "Daf Dissovlved Air Floating Machine For Industrial Dairy Food Wa",
+  "category": "waste-water-treatment-equipment",
+  "summary": "A dissolved air flotation (DAF) machine that dissolves air into water under pressure and releases microbubbles to float and remove suspended solids and other contaminants from industrial wastewater. It delivers efficient solid-liquid separation with stable Grade 1A effluent quality.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/45-daf-dissovlved-air-floating-machine-for-industrial-dairy-food-wa/01.png",
+    "/images/products/waste-water-treatment-equipment/45-daf-dissovlved-air-floating-machine-for-industrial-dairy-food-wa/02.png",
+    "/images/products/waste-water-treatment-equipment/45-daf-dissovlved-air-floating-machine-for-industrial-dairy-food-wa/03.png",
+    "/images/products/waste-water-treatment-equipment/45-daf-dissovlved-air-floating-machine-for-industrial-dairy-food-wa/04.png",
+    "/images/products/waste-water-treatment-equipment/45-daf-dissovlved-air-floating-machine-for-industrial-dairy-food-wa/05.png",
+    "/images/products/waste-water-treatment-equipment/45-daf-dissovlved-air-floating-machine-for-industrial-dairy-food-wa/06.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/45-daf-dissovlved-air-floating-machine-for-industrial-dairy-food-wa/01.png",
+  "bullets": [
+    "Dissolved gas efficiency and release rate up to 99%",
+    "Tiny bubbles for efficient suspended particle adsorption",
+    "Dissolving efficiency 3x higher than traditional flotation",
+    "Removes SS and CODcr for Grade 1A effluent"
+  ],
+  "specs": [
+    {
+      "label": "Operating pressure",
+      "value": "0.35 MPa"
+    },
+    {
+      "label": "Dissolved gas efficiency",
+      "value": "Up to 99%"
+    },
+    {
+      "label": "Release rate",
+      "value": "Up to 99%"
+    },
+    {
+      "label": "Dissolving efficiency",
+      "value": "80-100%"
+    },
+    {
+      "label": "Effluent quality",
+      "value": "Grade 1A"
+    },
+    {
+      "label": "Contaminants removed",
+      "value": "SS and CODcr"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 78
+}

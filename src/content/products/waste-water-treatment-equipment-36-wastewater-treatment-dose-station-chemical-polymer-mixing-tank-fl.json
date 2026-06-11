@@ -1,0 +1,46 @@
+{
+  "id": "26jer3",
+  "title": "Wastewater Treatment Dose Station Chemical Polymer Mixing Tank Fl",
+  "category": "waste-water-treatment-equipment",
+  "summary": "An intelligent, fully automated dosing station that continuously prepares and delivers dry-powder chemicals, integrating dissolution, dilution, and dosing for water and wastewater treatment.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/36-wastewater-treatment-dose-station-chemical-polymer-mixing-tank-fl/05.png",
+    "/images/products/waste-water-treatment-equipment/36-wastewater-treatment-dose-station-chemical-polymer-mixing-tank-fl/06.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/36-wastewater-treatment-dose-station-chemical-polymer-mixing-tank-fl/05.png",
+  "bullets": [
+    "PLC-controlled, high automation",
+    "Spiral feeder with 1% precision",
+    "Multistage blade mixer for fast hydration",
+    "Three-tank overflow design"
+  ],
+  "specs": [
+    {
+      "label": "Models",
+      "value": "YMJY-500 to YMJY-4000"
+    },
+    {
+      "label": "Capacity",
+      "value": "500-4000 L/h"
+    },
+    {
+      "label": "Power",
+      "value": "1.47-4.77 kW"
+    },
+    {
+      "label": "Dosing Precision",
+      "value": "±1%"
+    },
+    {
+      "label": "Tank Material",
+      "value": "SS304, PP"
+    },
+    {
+      "label": "Dimensions",
+      "value": "1100-4600 x 800-1900 x 1700-2000 mm"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 69
+}

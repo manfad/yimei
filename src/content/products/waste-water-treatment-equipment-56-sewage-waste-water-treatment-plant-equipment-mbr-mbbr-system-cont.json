@@ -1,0 +1,42 @@
+{
+  "id": "2d1zv7",
+  "title": "Sewage Waste Water Treatment Plant Equipment Mbr Mbbr System Cont",
+  "category": "waste-water-treatment-equipment",
+  "summary": "A packaged sewage treatment plant combining MBBR and MBR technologies to remove organic pollutants from municipal and industrial wastewater. It produces high-quality effluent suitable for reuse or safe environmental discharge.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/56-sewage-waste-water-treatment-plant-equipment-mbr-mbbr-system-cont/01.png",
+    "/images/products/waste-water-treatment-equipment/56-sewage-waste-water-treatment-plant-equipment-mbr-mbbr-system-cont/02.png",
+    "/images/products/waste-water-treatment-equipment/56-sewage-waste-water-treatment-plant-equipment-mbr-mbbr-system-cont/03.png",
+    "/images/products/waste-water-treatment-equipment/56-sewage-waste-water-treatment-plant-equipment-mbr-mbbr-system-cont/04.png",
+    "/images/products/waste-water-treatment-equipment/56-sewage-waste-water-treatment-plant-equipment-mbr-mbbr-system-cont/05.png",
+    "/images/products/waste-water-treatment-equipment/56-sewage-waste-water-treatment-plant-equipment-mbr-mbbr-system-cont/06.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/56-sewage-waste-water-treatment-plant-equipment-mbr-mbbr-system-cont/01.png",
+  "bullets": [
+    "High-capacity biofilm treatment",
+    "Advanced membrane filtration",
+    "Low energy consumption, minimal sludge",
+    "Space-efficient compact design"
+  ],
+  "specs": [
+    {
+      "label": "Technology",
+      "value": "Combined MBBR and MBR"
+    },
+    {
+      "label": "Application",
+      "value": "Municipal and industrial sewage treatment"
+    },
+    {
+      "label": "Components",
+      "value": "Pretreatment screens, MBBR reactors, MBR modules, air diffusers, sludge treatment, automated controls"
+    },
+    {
+      "label": "Effluent",
+      "value": "High-quality, suitable for reuse or discharge"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 89
+}

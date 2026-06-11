@@ -1,0 +1,43 @@
+{
+  "id": "udvnmy",
+  "title": "Mechanical Trash Coarse Rake Bar Screen With Sewage Treatment Pla",
+  "category": "waste-water-treatment-equipment",
+  "summary": "An automated rotary rake bar screen that continuously removes debris and solids from fluids, used in sewage treatment plants, water supply systems, and industrial applications such as textile and food processing.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/26-mechanical-trash-coarse-rake-bar-screen-with-sewage-treatment-pla/01.png",
+    "/images/products/waste-water-treatment-equipment/26-mechanical-trash-coarse-rake-bar-screen-with-sewage-treatment-pla/02.png",
+    "/images/products/waste-water-treatment-equipment/26-mechanical-trash-coarse-rake-bar-screen-with-sewage-treatment-pla/03.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/26-mechanical-trash-coarse-rake-bar-screen-with-sewage-treatment-pla/01.png",
+  "bullets": [
+    "High automaticity and high separation efficiency",
+    "Low power consumption",
+    "Strong self-cleaning, anti-blocking design",
+    "Overload protection with alarm"
+  ],
+  "specs": [
+    {
+      "label": "Model Range",
+      "value": "YMGS300-1500 (by width)"
+    },
+    {
+      "label": "Maximum Width",
+      "value": "1500mm"
+    },
+    {
+      "label": "Rake Tooth Clearance",
+      "value": "1, 3, 5, 10, 20, 30, 40, 50mm options"
+    },
+    {
+      "label": "Rake Tooth Material",
+      "value": "ABS engineering plastic, nylon, or stainless steel"
+    },
+    {
+      "label": "Frame Material",
+      "value": "Stainless steel or carbon steel with corrosion protection"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 59
+}

@@ -1,0 +1,49 @@
+{
+  "id": "l5bz78",
+  "title": "Wwtp Waste Water Treatment Plant Mbr Sewage Water Recycling Machi",
+  "category": "waste-water-treatment-equipment",
+  "summary": "A packaged sewage treatment plant that treats wastewater by combining activated-sludge microbiological treatment with a biological membrane (MBR) method, designed for domestic and commercial properties not connected to mains drainage.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/02-wwtp-waste-water-treatment-plant-mbr-sewage-water-recycling-machi/01.png",
+    "/images/products/waste-water-treatment-equipment/02-wwtp-waste-water-treatment-plant-mbr-sewage-water-recycling-machi/02.png",
+    "/images/products/waste-water-treatment-equipment/02-wwtp-waste-water-treatment-plant-mbr-sewage-water-recycling-machi/03.png",
+    "/images/products/waste-water-treatment-equipment/02-wwtp-waste-water-treatment-plant-mbr-sewage-water-recycling-machi/04.png",
+    "/images/products/waste-water-treatment-equipment/02-wwtp-waste-water-treatment-plant-mbr-sewage-water-recycling-machi/05.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/02-wwtp-waste-water-treatment-plant-mbr-sewage-water-recycling-machi/01.png",
+  "bullets": [
+    "No odours",
+    "No internal moving parts",
+    "Compact design",
+    "Fully automatic operation"
+  ],
+  "specs": [
+    {
+      "label": "Model",
+      "value": "DMS2 / DMS3 / DMS4 / DMS5"
+    },
+    {
+      "label": "Population Range",
+      "value": "1-6 to 14-20 persons"
+    },
+    {
+      "label": "BOD/day",
+      "value": "360-1200 grams"
+    },
+    {
+      "label": "Blower Motor",
+      "value": "0.105-0.216 kW (single phase)"
+    },
+    {
+      "label": "Material",
+      "value": "Carbon steel with epoxy anticorrosive paint or fiberglass coating"
+    },
+    {
+      "label": "Effluent Quality",
+      "value": "Grade 1A (20mg/l BOD, 30mg/l SS, 20mg/l Ammoniacal Nitrogen)"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 35
+}

@@ -1,0 +1,48 @@
+{
+  "id": "1iaeek",
+  "title": "Stainless Steel Sludge Dewatering Machine Screw Press Wastewater",
+  "category": "screw-dehydrator",
+  "summary": "A stainless steel screw press that separates solids from wastewater sludge using a rotating screw mechanism, producing dried mud cake for disposal while returning clarified liquid to the treatment system. Ideal for automated sludge dewatering in wastewater treatment plants.",
+  "images": [
+    "/images/products/screw-dehydrator/08-stainless-steel-sludge-dewatering-machine-screw-press-wastewater/01.png",
+    "/images/products/screw-dehydrator/08-stainless-steel-sludge-dewatering-machine-screw-press-wastewater/02.png",
+    "/images/products/screw-dehydrator/08-stainless-steel-sludge-dewatering-machine-screw-press-wastewater/03.png",
+    "/images/products/screw-dehydrator/08-stainless-steel-sludge-dewatering-machine-screw-press-wastewater/04.png"
+  ],
+  "featuredImage": "/images/products/screw-dehydrator/08-stainless-steel-sludge-dewatering-machine-screw-press-wastewater/01.png",
+  "bullets": [
+    "Low power, high torque, low speed operation",
+    "Small footprint, high degree of automation",
+    "Handles wide sludge concentration (2000-50000 mg/L)",
+    "Self-cleaning mechanism prevents clogging"
+  ],
+  "specs": [
+    {
+      "label": "Material",
+      "value": "SS304 / SS316L"
+    },
+    {
+      "label": "Sludge flow capacity",
+      "value": "0.14-55 m³/h"
+    },
+    {
+      "label": "Dry solids treatment",
+      "value": "5-650 kg DS/h"
+    },
+    {
+      "label": "Outlet cake moisture",
+      "value": "70%-80%"
+    },
+    {
+      "label": "Dimensions",
+      "value": "4m × 0.95m × 2m"
+    },
+    {
+      "label": "Control type",
+      "value": "Full automatic or semi-automatic"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 31
+}

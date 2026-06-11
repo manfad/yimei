@@ -1,0 +1,46 @@
+{
+  "id": "4mrd5g",
+  "title": "Sludge Dewatering Machine Screw Press For Wastewater Treatment 30",
+  "category": "waste-water-treatment-equipment",
+  "summary": "An ISO 9001 certified stainless steel volute-type multi-disc screw press that automatically dewaters wastewater sludge, removing moisture to produce dried cake for disposal or further processing.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/38-sludge-dewatering-machine-screw-press-for-wastewater-treatment-30/02.png",
+    "/images/products/waste-water-treatment-equipment/38-sludge-dewatering-machine-screw-press-for-wastewater-treatment-30/03.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/38-sludge-dewatering-machine-screw-press-for-wastewater-treatment-30/02.png",
+  "bullets": [
+    "Low power, high torque, low speed operation",
+    "Fully automatic PLC control system",
+    "Small footprint, high degree of automation",
+    "Self-cleaning mechanism prevents clogging"
+  ],
+  "specs": [
+    {
+      "label": "Material",
+      "value": "SS304 / SS316L"
+    },
+    {
+      "label": "Dimensions",
+      "value": "4m x 0.95m x 2m"
+    },
+    {
+      "label": "Weight",
+      "value": "350 kg"
+    },
+    {
+      "label": "Sludge Flow Capacity",
+      "value": "0.14-55 m³/h"
+    },
+    {
+      "label": "Outlet Cake Moisture",
+      "value": "70%-80%"
+    },
+    {
+      "label": "Control Type",
+      "value": "Full automatic or semi-automatic"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 71
+}

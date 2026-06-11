@@ -1,0 +1,42 @@
+{
+  "id": "1whtsa",
+  "title": "Slaughter Wastewater Treatment Equipment Compact Sewage Treatment",
+  "category": "waste-water-treatment-equipment",
+  "summary": "Slaughter Wastewater Treatment Equipment Compact Sewage Treatment for industrial and domestic wastewater treatment applications.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/55-slaughter-wastewater-treatment-equipment-compact-sewage-treatment/01.png",
+    "/images/products/waste-water-treatment-equipment/55-slaughter-wastewater-treatment-equipment-compact-sewage-treatment/02.png",
+    "/images/products/waste-water-treatment-equipment/55-slaughter-wastewater-treatment-equipment-compact-sewage-treatment/03.png",
+    "/images/products/waste-water-treatment-equipment/55-slaughter-wastewater-treatment-equipment-compact-sewage-treatment/04.png",
+    "/images/products/waste-water-treatment-equipment/55-slaughter-wastewater-treatment-equipment-compact-sewage-treatment/05.png",
+    "/images/products/waste-water-treatment-equipment/55-slaughter-wastewater-treatment-equipment-compact-sewage-treatment/06.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/55-slaughter-wastewater-treatment-equipment-compact-sewage-treatment/01.png",
+  "bullets": [
+    "Industrial wastewater treatment equipment",
+    "Configurable process integration",
+    "Suitable for packaged treatment flows",
+    "Project-specific capacity and layout"
+  ],
+  "specs": [
+    {
+      "label": "Category",
+      "value": "Waste Water Treatment Equipment"
+    },
+    {
+      "label": "Application",
+      "value": "Wastewater treatment"
+    },
+    {
+      "label": "Configuration",
+      "value": "Project-specific"
+    },
+    {
+      "label": "Material",
+      "value": "SS / coated steel options"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 88
+}

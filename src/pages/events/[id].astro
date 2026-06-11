@@ -1,76 +1,262 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import PageHero from '../../components/PageHero.astro';
-import { events } from '../../data/events';
+import EventMediaThumb from '../../components/EventMediaThumb.astro';
+import { getCollection } from 'astro:content';
+import { byOrderThenName, toEvent, isVideoSrc } from '../../lib/catalog';
 
-export function getStaticPaths() {
+export async function getStaticPaths() {
+  const events = (await getCollection('events', ({ data }) => !data.draft)).map(toEvent).sort(byOrderThenName);
   return events.map((ev) => ({ params: { id: ev.id }, props: { event: ev } }));
 }
 
 const { event } = Astro.props;
-const chipClass = event.type === 'Collaboration' ? 'chip leaf' : 'chip';
+const images = event.images.length > 0 ? event.images : event.featuredImage ? [event.featuredImage] : [];
+const [main, thumb1, thumb2, ...rest] = images;
+const hasMore = rest.length > 0;
+
+// Share href is finalised client-side from window.location (no `site` configured),
+// but provide a sensible non-JS fallback path here.
+const facebookShareHref = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(Astro.url.pathname)}`;
 ---
 
-<BaseLayout title={`${event.title} — Yimei Environment Protection`}>
+<BaseLayout title={`${event.title} — Yimei Environment Protection`} description={event.excerpt}>
   <section class="section">
-    <div class="container">
-      <PageHero
-        compact
-        crumbs={[
-          { label: 'Home', href: '/' },
-          { label: 'Events', href: '/events' },
-          { label: event.title },
-        ]}
-      />
+    <div class="container ev-detail">
+      <a class="textlink ev-detail__back" href="/events"><span class="arr">&larr;</span> Back to events</a>
 
-      <div class="detail-head">
-        <div class="ev-top detail-head__meta">
-          <span class={chipClass}>{event.type}</span>
-          <span class="ev-date">{event.date}</span>
-        </div>
-        <h1 class="h-xl detail-head__title">{event.title}</h1>
-        <div class="event-meta-row">
-          <div class="emr-item">
-            <div class="k">Date</div>
-            <div class="v">{event.date}</div>
-          </div>
-          <div class="emr-item">
-            <div class="k">Type</div>
-            <div class="v">{event.type}</div>
-          </div>
-          <div class="emr-item">
-            <div class="k">Location</div>
-            <div class="v">{event.location}</div>
-          </div>
-        </div>
+      <h1 class="h-xl ev-detail__title">{event.title}</h1>
+
+      <div class="ev-detail__meta">
+        <span class="ev-date">{event.date}{event.location ? ` · ${event.location}` : ''}</span>
+        <a
+          class="fb-share"
+          href={facebookShareHref}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Share on Facebook"
+          data-share
+          data-share-title={event.title}
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="fb-share__icon" aria-hidden="true">
+            <path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5 3.66 9.15 8.44 9.94v-7.03H7.9v-2.91h2.54V9.85c0-2.51 1.49-3.9 3.77-3.9 1.09 0 2.24.2 2.24.2v2.47h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.45 2.91h-2.33V22c4.78-.79 8.44-4.94 8.44-9.94Z"/>
+          </svg>
+          Share on Facebook
+        </a>
       </div>
 
-      <div class="gallery detail-gallery" data-gallery>
-        <div class="ph g-main" data-gallery-main data-label={`${event.title} — photo 1`} style="aspect-ratio:16/9"></div>
-        <div class="g-thumbs">
-          {
-            [1, 2, 3, 4].map((i) => (
-              <div
-                class:list={['ph', 'g-thumb', 'ph--center', { 'is-active': i === 1 }]}
-                data-gallery-thumb
-                data-label={`${event.title} — photo ${i}`}
-              />
-            ))
-          }
-        </div>
-      </div>
+      {event.excerpt && <p class="ev-detail__lead">{event.excerpt}</p>}
 
-      <div class="detail-body">
+      {
+        main && (
+          <div class="ev-gallery">
+            {!thumb1 ? (
+              <button
+                type="button"
+                class="ev-shot ev-shot--solo media-frame"
+                data-photo-trigger
+                data-photo-index="0"
+              >
+                <EventMediaThumb src={main} alt={event.title} loading="eager" />
+              </button>
+            ) : (
+              <div class="ev-mosaic">
+                <button
+                  type="button"
+                  class="ev-shot ev-shot--main media-frame"
+                  data-photo-trigger
+                  data-photo-index="0"
+                >
+                  <EventMediaThumb src={main} alt={event.title} loading="eager" />
+                </button>
+
+                <button type="button" class="ev-shot media-frame" data-photo-trigger data-photo-index="1">
+                  <EventMediaThumb src={thumb1} alt={`${event.title} — photo 2`} />
+                </button>
+
+                {thumb2 && (
+                  <button type="button" class="ev-shot media-frame" data-photo-trigger data-photo-index="2">
+                    <EventMediaThumb src={thumb2} alt={`${event.title} — photo 3`} />
+                  </button>
+                )}
+
+                {hasMore && (
+                  <button
+                    type="button"
+                    class="ev-shot ev-shot--more media-frame"
+                    data-photo-trigger
+                    data-photo-index="3"
+                    aria-label={`Open ${rest.length} more ${rest.length === 1 ? 'item' : 'items'}`}
+                  >
+                    {isVideoSrc(rest[0]) ? (
+                      <video src={`${rest[0]}#t=0.5`} preload="metadata" muted playsinline aria-hidden="true" />
+                    ) : (
+                      <img src={rest[0]} alt="" loading="lazy" decoding="async" aria-hidden="true" />
+                    )}
+                    <span class="ev-shot__overlay">
+                      <span class="ev-shot__plus">+{rest.length}</span>
+                      <span class="ev-shot__more">more</span>
+                    </span>
+                  </button>
+                )}
+              </div>
+            )}
+          </div>
+        )
+      }
+
+      <div class="detail-body ev-detail__body">
         {event.body.map((par) => <p>{par}</p>)}
       </div>
 
       <div class="detail-back">
-        <a class="textlink" href="/events"><span class="arr detail-back__arr">&rarr;</span> Back to all events</a>
+        <a class="textlink" href="/events"><span class="arr">&larr;</span> Back to all events</a>
       </div>
     </div>
   </section>
+
+  {
+    images.length > 0 && (
+      <div data-photo-modal hidden class="photo-modal" role="dialog" aria-modal="true" aria-label={`${event.title} photo viewer`}>
+        <div class="photo-modal__bar">
+          <p data-photo-count class="photo-modal__count" />
+          <button type="button" data-photo-close class="photo-modal__btn" aria-label="Close photo viewer">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M18 6 6 18" />
+              <path d="m6 6 12 12" />
+            </svg>
+          </button>
+        </div>
+        <div class="photo-modal__stage">
+          <img data-photo-modal-image src="" alt="" class="photo-modal__img" />
+          <video data-photo-modal-video class="photo-modal__img" controls playsinline preload="metadata" hidden />
+          {images.length > 1 && (
+            <>
+              <button type="button" data-photo-prev class="photo-modal__nav photo-modal__nav--prev" aria-label="Previous photo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="m15 18-6-6 6-6" />
+                </svg>
+              </button>
+              <button type="button" data-photo-next class="photo-modal__nav photo-modal__nav--next" aria-label="Next photo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="m9 18 6-6-6-6" />
+                </svg>
+              </button>
+            </>
+          )}
+        </div>
+      </div>
+    )
+  }
+
+  <script type="application/json" id="event-photos-data" set:html={JSON.stringify(
+    images.map((src, index) => ({
+      src,
+      alt: index === 0 ? event.title : `${event.title} — item ${index + 1}`,
+      type: isVideoSrc(src) ? 'video' : 'image',
+    })),
+  )} />
 </BaseLayout>
 
 <script>
-  import '../../scripts/gallery';
+  // Finalise the Facebook share URL + Web Share API from the live location.
+  const shareBtn = document.querySelector<HTMLAnchorElement>('[data-share]');
+  if (shareBtn) {
+    const url = window.location.href;
+    shareBtn.href = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`;
+    shareBtn.addEventListener('click', async (e) => {
+      const title = shareBtn.dataset.shareTitle ?? document.title;
+      if (typeof navigator !== 'undefined' && typeof navigator.share === 'function') {
+        e.preventDefault();
+        try {
+          await navigator.share({ title, url });
+        } catch (err) {
+          if ((err as Error)?.name !== 'AbortError') {
+            window.open(shareBtn.href, '_blank', 'noopener,noreferrer');
+          }
+        }
+      }
+    });
+  }
+
+  // Lightbox
+  const modal = document.querySelector<HTMLElement>('[data-photo-modal]');
+  const modalImage = document.querySelector<HTMLImageElement>('[data-photo-modal-image]');
+  const modalVideo = document.querySelector<HTMLVideoElement>('[data-photo-modal-video]');
+  const count = document.querySelector<HTMLElement>('[data-photo-count]');
+  const closeBtn = document.querySelector<HTMLButtonElement>('[data-photo-close]');
+  const prevBtn = document.querySelector<HTMLButtonElement>('[data-photo-prev]');
+  const nextBtn = document.querySelector<HTMLButtonElement>('[data-photo-next]');
+  const triggers = Array.from(document.querySelectorAll<HTMLButtonElement>('[data-photo-trigger]')).sort(
+    (a, b) => Number(a.dataset.photoIndex ?? 0) - Number(b.dataset.photoIndex ?? 0),
+  );
+  const photosData = document.getElementById('event-photos-data')?.textContent ?? '[]';
+  const photos = JSON.parse(photosData) as { src: string; alt: string; type: 'image' | 'video' }[];
+
+  let current = 0;
+  let lastFocused: HTMLButtonElement | null = null;
+
+  function resetVideo() {
+    if (!modalVideo) return;
+    modalVideo.pause();
+    modalVideo.removeAttribute('src');
+    modalVideo.load();
+    modalVideo.setAttribute('hidden', '');
+  }
+
+  function show(index: number) {
+    if (!modal || photos.length === 0) return;
+    current = (index + photos.length) % photos.length;
+    const photo = photos[current];
+    if (photo.type === 'video') {
+      modalImage?.setAttribute('hidden', '');
+      modalImage?.removeAttribute('src');
+      if (modalVideo) {
+        modalVideo.pause();
+        modalVideo.src = photo.src;
+        modalVideo.removeAttribute('hidden');
+      }
+    } else {
+      resetVideo();
+      if (modalImage) {
+        modalImage.src = photo.src;
+        modalImage.alt = photo.alt;
+        modalImage.removeAttribute('hidden');
+      }
+    }
+    if (count) count.textContent = `${current + 1} / ${photos.length}`;
+  }
+
+  function open(index: number, trigger: HTMLButtonElement) {
+    if (!modal) return;
+    lastFocused = trigger;
+    show(index);
+    modal.removeAttribute('hidden');
+    document.body.style.overflow = 'hidden';
+    closeBtn?.focus();
+  }
+
+  function close() {
+    if (!modal) return;
+    modal.setAttribute('hidden', '');
+    document.body.style.overflow = '';
+    modalImage?.removeAttribute('src');
+    resetVideo();
+    lastFocused?.focus();
+  }
+
+  triggers.forEach((trigger) => {
+    trigger.addEventListener('click', () => open(Number(trigger.dataset.photoIndex ?? 0), trigger));
+  });
+  closeBtn?.addEventListener('click', close);
+  prevBtn?.addEventListener('click', () => show(current - 1));
+  nextBtn?.addEventListener('click', () => show(current + 1));
+  modal?.addEventListener('click', (e) => {
+    if (e.target === modal) close();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (!modal || modal.hasAttribute('hidden')) return;
+    if (e.key === 'Escape') close();
+    if (e.key === 'ArrowLeft') show(current - 1);
+    if (e.key === 'ArrowRight') show(current + 1);
+  });
 </script>

@@ -1,0 +1,46 @@
+{
+  "id": "1enpf7",
+  "title": "Printing And Dyeing Wastewater Treatment Plant Use Lamella Clarif",
+  "category": "lamella-clarifier",
+  "summary": "An inclined-plate (lamella) sediment tank for printing and dyeing wastewater treatment that removes suspended solids by gravity settling along densely packed inclined tubes, achieving 70-90% chroma removal and 50-70% COD removal on dye and bleach effluent.",
+  "images": [
+    "/images/products/lamella-clarifier/05-printing-and-dyeing-wastewater-treatment-plant-use-lamella-clarif/01.png",
+    "/images/products/lamella-clarifier/05-printing-and-dyeing-wastewater-treatment-plant-use-lamella-clarif/02.png",
+    "/images/products/lamella-clarifier/05-printing-and-dyeing-wastewater-treatment-plant-use-lamella-clarif/03.png",
+    "/images/products/lamella-clarifier/05-printing-and-dyeing-wastewater-treatment-plant-use-lamella-clarif/04.png",
+    "/images/products/lamella-clarifier/05-printing-and-dyeing-wastewater-treatment-plant-use-lamella-clarif/05.png",
+    "/images/products/lamella-clarifier/05-printing-and-dyeing-wastewater-treatment-plant-use-lamella-clarif/06.png"
+  ],
+  "featuredImage": "/images/products/lamella-clarifier/05-printing-and-dyeing-wastewater-treatment-plant-use-lamella-clarif/01.png",
+  "bullets": [
+    "70-90% chroma, 50-70% COD removal",
+    "Improves sediment efficiency 50-60%",
+    "Treatment capacity 3-5x in same area",
+    "Simple structure, no wearing parts"
+  ],
+  "specs": [
+    {
+      "label": "Model YMXG-5",
+      "value": "5 m³/h, 2.2 × 2 × 3.5 m"
+    },
+    {
+      "label": "Model YMXG-10",
+      "value": "10 m³/h, 2.25 × 2.25 × 6 m"
+    },
+    {
+      "label": "Model YMXG-20",
+      "value": "20 m³/h, 9 × 2.25 × 2.25 m"
+    },
+    {
+      "label": "Model YMXG-30",
+      "value": "30 m³/h, 8 × 3.5 × 4.5 m"
+    },
+    {
+      "label": "Model YMXG-50",
+      "value": "50 m³/h, 12 × 3.5 × 4.5 m"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 14
+}

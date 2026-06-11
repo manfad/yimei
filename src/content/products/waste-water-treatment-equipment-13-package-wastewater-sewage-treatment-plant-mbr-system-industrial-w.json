@@ -1,0 +1,49 @@
+{
+  "id": "2bvnov",
+  "title": "Package Wastewater Sewage Treatment Plant Mbr System Industrial W",
+  "category": "waste-water-treatment-equipment",
+  "summary": "A compact, fully automated package sewage treatment system combining activated sludge and biological membrane technology for efficient wastewater purification. It delivers stable Grade 1A effluent quality and can be installed above ground or underground.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/13-package-wastewater-sewage-treatment-plant-mbr-system-industrial-w/02.png",
+    "/images/products/waste-water-treatment-equipment/13-package-wastewater-sewage-treatment-plant-mbr-system-industrial-w/03.png",
+    "/images/products/waste-water-treatment-equipment/13-package-wastewater-sewage-treatment-plant-mbr-system-industrial-w/04.png",
+    "/images/products/waste-water-treatment-equipment/13-package-wastewater-sewage-treatment-plant-mbr-system-industrial-w/05.png",
+    "/images/products/waste-water-treatment-equipment/13-package-wastewater-sewage-treatment-plant-mbr-system-industrial-w/06.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/13-package-wastewater-sewage-treatment-plant-mbr-system-industrial-w/02.png",
+  "bullets": [
+    "Stable Grade 1A effluent quality",
+    "Compact above-ground or underground installation",
+    "Premium materials with quality assurance",
+    "Fully automatic operation"
+  ],
+  "specs": [
+    {
+      "label": "Models",
+      "value": "YMSZ-1 to YMSZ-30"
+    },
+    {
+      "label": "Capacity",
+      "value": "1-30 m³/h"
+    },
+    {
+      "label": "Contact Oxidation Tank",
+      "value": "5.0-130 m³"
+    },
+    {
+      "label": "Air Blower Power",
+      "value": "0.4-5.5 kW"
+    },
+    {
+      "label": "Total Weight",
+      "value": "5.5-29 tons"
+    },
+    {
+      "label": "Footprint",
+      "value": "6-115 m²"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 46
+}

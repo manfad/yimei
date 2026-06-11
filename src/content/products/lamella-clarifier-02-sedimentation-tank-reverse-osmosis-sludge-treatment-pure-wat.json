@@ -1,0 +1,42 @@
+{
+  "id": "1q48f2",
+  "title": "Sedimentation Tank Reverse Osmosis Sludge Treatment Pure Wat",
+  "category": "lamella-clarifier",
+  "summary": "Sedimentation Tank Reverse Osmosis Sludge Treatment Pure Wat for compact sedimentation, clarification, and wastewater treatment flows.",
+  "images": [
+    "/images/products/lamella-clarifier/02-sedimentation-tank-reverse-osmosis-sludge-treatment-pure-wat/01.png",
+    "/images/products/lamella-clarifier/02-sedimentation-tank-reverse-osmosis-sludge-treatment-pure-wat/02.png",
+    "/images/products/lamella-clarifier/02-sedimentation-tank-reverse-osmosis-sludge-treatment-pure-wat/03.png",
+    "/images/products/lamella-clarifier/02-sedimentation-tank-reverse-osmosis-sludge-treatment-pure-wat/04.png",
+    "/images/products/lamella-clarifier/02-sedimentation-tank-reverse-osmosis-sludge-treatment-pure-wat/05.png",
+    "/images/products/lamella-clarifier/02-sedimentation-tank-reverse-osmosis-sludge-treatment-pure-wat/06.png"
+  ],
+  "featuredImage": "/images/products/lamella-clarifier/02-sedimentation-tank-reverse-osmosis-sludge-treatment-pure-wat/01.png",
+  "bullets": [
+    "Inclined-plate clarification design",
+    "Compact settling footprint",
+    "Supports suspended-solids reduction",
+    "Configurable tank and material options"
+  ],
+  "specs": [
+    {
+      "label": "Category",
+      "value": "Lamella Clarifier"
+    },
+    {
+      "label": "Application",
+      "value": "Wastewater treatment"
+    },
+    {
+      "label": "Configuration",
+      "value": "Project-specific"
+    },
+    {
+      "label": "Material",
+      "value": "SS / coated steel options"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 11
+}

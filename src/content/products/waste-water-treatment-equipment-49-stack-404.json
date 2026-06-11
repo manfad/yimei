@@ -1,0 +1,44 @@
+{
+  "id": "x5li5j",
+  "title": "Multi-Disk Sludge Dewatering Screw Press",
+  "category": "waste-water-treatment-equipment",
+  "summary": "A multi-disk sludge dewatering screw press that uses screw extrusion to perform solid-liquid separation, dewatering sludge from municipal and industrial wastewater treatment.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/49-stack-404/01.jpg",
+    "/images/products/waste-water-treatment-equipment/49-stack-404/02.jpg",
+    "/images/products/waste-water-treatment-equipment/49-stack-404/03.jpg",
+    "/images/products/waste-water-treatment-equipment/49-stack-404/04.jpg"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/49-stack-404/01.jpg",
+  "bullets": [
+    "Self-cleaning, anti-clogging design",
+    "Handles low and high concentration sludge",
+    "Compact for above- or underground installation",
+    "SS304 corrosion-resistant construction"
+  ],
+  "specs": [
+    {
+      "label": "Material",
+      "value": "SS304 stainless steel"
+    },
+    {
+      "label": "Model YMDL101",
+      "value": "6-12 kg/h, 3 m³/h (at 2000mg/L)"
+    },
+    {
+      "label": "Model YMDL202",
+      "value": "18-40 kg/h, 10 m³/h (at 2000mg/L)"
+    },
+    {
+      "label": "Model YMDL301",
+      "value": "40-85 kg/h, 14 m³/h (at 2000mg/L)"
+    },
+    {
+      "label": "Model YMDL403",
+      "value": "200-800 kg/h, 60 m³/h (at 2000mg/L)"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 82
+}

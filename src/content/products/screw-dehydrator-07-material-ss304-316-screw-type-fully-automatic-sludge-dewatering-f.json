@@ -1,0 +1,46 @@
+{
+  "id": "1vkyge",
+  "title": "Material Ss304 316 Screw Type Fully Automatic Sludge Dewatering F",
+  "category": "screw-dehydrator",
+  "summary": "A multi-plate screw press dewatering machine that uses screw extrusion to separate solids from liquids. It is designed for sludge treatment in municipal and industrial wastewater applications.",
+  "images": [
+    "/images/products/screw-dehydrator/07-material-ss304-316-screw-type-fully-automatic-sludge-dewatering-f/01.png",
+    "/images/products/screw-dehydrator/07-material-ss304-316-screw-type-fully-automatic-sludge-dewatering-f/03.png"
+  ],
+  "featuredImage": "/images/products/screw-dehydrator/07-material-ss304-316-screw-type-fully-automatic-sludge-dewatering-f/01.png",
+  "bullets": [
+    "Anti-clogging screw extrusion design",
+    "Lower energy and water consumption",
+    "Fully automatic, stable operation",
+    "Wide industrial applicability"
+  ],
+  "specs": [
+    {
+      "label": "Material",
+      "value": "SS304, SS316"
+    },
+    {
+      "label": "Outlet Cake Moisture Content",
+      "value": "75%-85%"
+    },
+    {
+      "label": "Models Available",
+      "value": "YMDL101 to YMDL403A"
+    },
+    {
+      "label": "Throughput Range",
+      "value": "3-72 m³/h (varies by model)"
+    },
+    {
+      "label": "Sludge Treatment Capacity",
+      "value": "6-1000 kg/h (varies by model)"
+    },
+    {
+      "label": "Feed Concentration",
+      "value": "2000-50000 mg/L"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 30
+}

@@ -1,0 +1,47 @@
+{
+  "id": "847c3k",
+  "title": "Auto Chlorination Dosing Machine Alum Acid Floc Tank Flocculation",
+  "category": "waste-water-treatment-equipment",
+  "summary": "An intelligent, fully automatic chemical dosing system that continuously prepares and dispenses dry powder chemicals such as flocculants, coagulants and polymers for wastewater treatment. It reduces manual labor while ensuring consistent, precise chemical addition to the treatment process.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/37-auto-chlorination-dosing-machine-alum-acid-floc-tank-flocculation/01.png",
+    "/images/products/waste-water-treatment-equipment/37-auto-chlorination-dosing-machine-alum-acid-floc-tank-flocculation/02.png",
+    "/images/products/waste-water-treatment-equipment/37-auto-chlorination-dosing-machine-alum-acid-floc-tank-flocculation/05.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/37-auto-chlorination-dosing-machine-alum-acid-floc-tank-flocculation/01.png",
+  "bullets": [
+    "Fully automatic, stable operation",
+    "Compact above-ground or underground installation",
+    "Adjustable flow rate and concentration",
+    "Reduces labor intensity and human error"
+  ],
+  "specs": [
+    {
+      "label": "Model",
+      "value": "YMJY-500 / 1000 / 1500 / 2000 / 3000 / 4000"
+    },
+    {
+      "label": "Capacity",
+      "value": "500-4000 L/h"
+    },
+    {
+      "label": "Total Power",
+      "value": "1.47-4.77 kW"
+    },
+    {
+      "label": "Main Tank Dimensions",
+      "value": "1000-4500 x 500-1500 x 1000-1160 mm"
+    },
+    {
+      "label": "External Dimensions",
+      "value": "1100-4600 x 800-1900 x 1700-2000 mm"
+    },
+    {
+      "label": "Brand",
+      "value": "Yimei"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 70
+}

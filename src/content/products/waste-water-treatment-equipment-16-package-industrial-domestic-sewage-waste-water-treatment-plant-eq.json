@@ -1,0 +1,47 @@
+{
+  "id": "1bf8tf",
+  "title": "Package Industrial Domestic Sewage Waste Water Treatment Plant Eq",
+  "category": "waste-water-treatment-equipment",
+  "summary": "A compact, integrated package wastewater treatment plant for industrial and domestic sewage, using biochemical treatment to produce high-quality effluent suitable for discharge to watercourses, ideal for properties not connected to mains drainage.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/16-package-industrial-domestic-sewage-waste-water-treatment-plant-eq/01.png",
+    "/images/products/waste-water-treatment-equipment/16-package-industrial-domestic-sewage-waste-water-treatment-plant-eq/02.png",
+    "/images/products/waste-water-treatment-equipment/16-package-industrial-domestic-sewage-waste-water-treatment-plant-eq/05.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/16-package-industrial-domestic-sewage-waste-water-treatment-plant-eq/01.png",
+  "bullets": [
+    "No odours and no internal moving parts",
+    "Fully automatic operation for stable performance",
+    "Compact above-ground or underground installation",
+    "Up to 3-year de-sludge intervals on certain models"
+  ],
+  "specs": [
+    {
+      "label": "Models",
+      "value": "DMS2, DMS3, DMS4, DMS5"
+    },
+    {
+      "label": "Population Range",
+      "value": "1-6 to 14-20 persons (varies by model)"
+    },
+    {
+      "label": "BOD/day (max)",
+      "value": "360-1200 grams depending on model"
+    },
+    {
+      "label": "Blower Motor Size",
+      "value": "0.105-0.216 kW (single phase)"
+    },
+    {
+      "label": "Material",
+      "value": "Carbon steel with epoxy anticorrosive paint or fiberglass coating"
+    },
+    {
+      "label": "Treatment Standard",
+      "value": "BOD 20mg/l, Suspended Solids 30mg/l, Ammoniacal Nitrogen 20mg/l"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 49
+}

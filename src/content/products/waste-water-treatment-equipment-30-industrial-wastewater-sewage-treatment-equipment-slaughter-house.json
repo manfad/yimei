@@ -1,0 +1,39 @@
+{
+  "id": "27qgtx",
+  "title": "Industrial Wastewater Sewage Treatment Equipment Slaughter House",
+  "category": "waste-water-treatment-equipment",
+  "summary": "Industrial Wastewater Sewage Treatment Equipment Slaughter House for industrial and domestic wastewater treatment applications.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/30-industrial-wastewater-sewage-treatment-equipment-slaughter-house/01.png",
+    "/images/products/waste-water-treatment-equipment/30-industrial-wastewater-sewage-treatment-equipment-slaughter-house/02.png",
+    "/images/products/waste-water-treatment-equipment/30-industrial-wastewater-sewage-treatment-equipment-slaughter-house/04.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/30-industrial-wastewater-sewage-treatment-equipment-slaughter-house/01.png",
+  "bullets": [
+    "Industrial wastewater treatment equipment",
+    "Configurable process integration",
+    "Suitable for packaged treatment flows",
+    "Project-specific capacity and layout"
+  ],
+  "specs": [
+    {
+      "label": "Category",
+      "value": "Waste Water Treatment Equipment"
+    },
+    {
+      "label": "Application",
+      "value": "Wastewater treatment"
+    },
+    {
+      "label": "Configuration",
+      "value": "Project-specific"
+    },
+    {
+      "label": "Material",
+      "value": "SS / coated steel options"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 63
+}

@@ -1,0 +1,43 @@
+{
+  "id": "2isycg",
+  "title": "Bar Screen For Sewage Treatment Plant Pretreatment Mechanical Sel",
+  "category": "waste-water-treatment-equipment",
+  "summary": "The YMGS/YMHG rotary bar screen is a solid-liquid separation device that continuously and automatically removes sundries from fluid. It is used as primary pretreatment equipment in urban sewage treatment, water supply, power plants, and industrial facilities.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/21-bar-screen-for-sewage-treatment-plant-pretreatment-mechanical-sel/01.png",
+    "/images/products/waste-water-treatment-equipment/21-bar-screen-for-sewage-treatment-plant-pretreatment-mechanical-sel/02.png",
+    "/images/products/waste-water-treatment-equipment/21-bar-screen-for-sewage-treatment-plant-pretreatment-mechanical-sel/03.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/21-bar-screen-for-sewage-treatment-plant-pretreatment-mechanical-sel/01.png",
+  "bullets": [
+    "High automation, low maintenance",
+    "Self-cleaning rake tooth mechanism",
+    "Overload protection with alarm",
+    "Low power consumption, noise-free"
+  ],
+  "specs": [
+    {
+      "label": "Model Range",
+      "value": "YMGS300-1500 (by width)"
+    },
+    {
+      "label": "Width Capability",
+      "value": "Parallel units available for >1500mm"
+    },
+    {
+      "label": "Bar Spacing",
+      "value": "1, 3, 5, 10, 20, 30, 40, 50 mm options"
+    },
+    {
+      "label": "Rake Tooth Material",
+      "value": "ABS plastic, nylon, or stainless steel"
+    },
+    {
+      "label": "Frame Material",
+      "value": "Stainless steel or carbon steel with antiseptic coating"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 54
+}

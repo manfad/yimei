@@ -20,5 +20,12 @@ pnpm-debug.log*
 # macOS-specific files
 .DS_Store
 
+# local/vendor image sources and temporary processing outputs
+product-images/
+product-images-processed/
+
 # jetbrains setting folder
 .idea/
+
+# Vercel adapter build output
+.vercel

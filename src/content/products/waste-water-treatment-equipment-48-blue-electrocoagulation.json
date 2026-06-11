@@ -1,0 +1,46 @@
+{
+  "id": "242ksi",
+  "title": "Blue Electrocoagulation",
+  "category": "waste-water-treatment-equipment",
+  "summary": "An electrocoagulation system that uses electrolytic oxidation-reduction reactions to remove heavy metal ions, organic substances and other pollutants from sewage. It enables resource recovery and reuse while delivering stable, high-quality treated effluent.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/48-blue-electrocoagulation/01.png",
+    "/images/products/waste-water-treatment-equipment/48-blue-electrocoagulation/02.png",
+    "/images/products/waste-water-treatment-equipment/48-blue-electrocoagulation/03.png",
+    "/images/products/waste-water-treatment-equipment/48-blue-electrocoagulation/04.png",
+    "/images/products/waste-water-treatment-equipment/48-blue-electrocoagulation/05.png",
+    "/images/products/waste-water-treatment-equipment/48-blue-electrocoagulation/06.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/48-blue-electrocoagulation/01.png",
+  "bullets": [
+    "Premium raw materials with quality assurance",
+    "Efficient purification with stable Grade 1A effluent",
+    "Compact above-ground or underground installation",
+    "Fully automatic operation"
+  ],
+  "specs": [
+    {
+      "label": "Process",
+      "value": "Electrolytic oxidation-reduction"
+    },
+    {
+      "label": "Removes",
+      "value": "Heavy metal ions and organic pollutants"
+    },
+    {
+      "label": "Effluent quality",
+      "value": "Grade 1A"
+    },
+    {
+      "label": "Installation",
+      "value": "Above-ground or underground"
+    },
+    {
+      "label": "Operation",
+      "value": "Fully automatic"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 81
+}

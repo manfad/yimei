@@ -1,0 +1,47 @@
+{
+  "id": "2eog24",
+  "title": "Automatic Dosing System For Waste Water Flocculant Coagulant Poly",
+  "category": "waste-water-treatment-equipment",
+  "summary": "An intelligent, fully automatic device that continuously prepares and doses dry powder chemicals such as flocculants, coagulants, and polymers for wastewater treatment. It integrates water supply, powder dissolution, curing, and automatic control systems.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/43-automatic-dosing-system-for-waste-water-flocculant-coagulant-poly/01.png",
+    "/images/products/waste-water-treatment-equipment/43-automatic-dosing-system-for-waste-water-flocculant-coagulant-poly/02.png",
+    "/images/products/waste-water-treatment-equipment/43-automatic-dosing-system-for-waste-water-flocculant-coagulant-poly/03.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/43-automatic-dosing-system-for-waste-water-flocculant-coagulant-poly/01.png",
+  "bullets": [
+    "Continuous, error-free automatic dosing",
+    "Compact footprint, standard 220V supply",
+    "Stable, consistent fully automatic operation",
+    "Customizable configurations"
+  ],
+  "specs": [
+    {
+      "label": "Models",
+      "value": "YMJY-500 to YMJY-4000"
+    },
+    {
+      "label": "Capacity",
+      "value": "500–4000 L/h"
+    },
+    {
+      "label": "Total Power",
+      "value": "1.47–4.77 kW"
+    },
+    {
+      "label": "Main Tank Dimensions",
+      "value": "1000×500×1160 to 4500×1500×1000 mm"
+    },
+    {
+      "label": "External Dimensions",
+      "value": "1100×800×1700 to 4600×1900×2000 mm"
+    },
+    {
+      "label": "Certifications",
+      "value": "CE, ISO9001"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 76
+}

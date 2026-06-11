@@ -1,0 +1,46 @@
+{
+  "id": "i0qb3m",
+  "title": "10001000 Membrane Filter Press Hydraulic Pressure Automatic Membr",
+  "category": "air-floating-equipment",
+  "summary": "A solid-liquid separation filter press that sends feed liquid into each filter chamber and separates solids from liquid through the filter medium under pressure. Widely used in chemical, pharmaceutical, food, metallurgy, and sewage treatment industries.",
+  "images": [
+    "/images/products/air-floating-equipment/03-10001000-membrane-filter-press-hydraulic-pressure-automatic-membr/01.png",
+    "/images/products/air-floating-equipment/03-10001000-membrane-filter-press-hydraulic-pressure-automatic-membr/02.png",
+    "/images/products/air-floating-equipment/03-10001000-membrane-filter-press-hydraulic-pressure-automatic-membr/03.png",
+    "/images/products/air-floating-equipment/03-10001000-membrane-filter-press-hydraulic-pressure-automatic-membr/04.png",
+    "/images/products/air-floating-equipment/03-10001000-membrane-filter-press-hydraulic-pressure-automatic-membr/05.png",
+    "/images/products/air-floating-equipment/03-10001000-membrane-filter-press-hydraulic-pressure-automatic-membr/06.png"
+  ],
+  "featuredImage": "/images/products/air-floating-equipment/03-10001000-membrane-filter-press-hydraulic-pressure-automatic-membr/01.png",
+  "bullets": [
+    "Manual, mechanical, hydraulic and automatic pressurize options",
+    "Plate frame, van and diaphragm squeezing types",
+    "Wide adaptability for viscous fine materials",
+    "Good separation effect"
+  ],
+  "specs": [
+    {
+      "label": "Model range",
+      "value": "200, 320, 450, 630, 800, 1000, 1250, 1500"
+    },
+    {
+      "label": "Filter area",
+      "value": "0.5 m2 ~ 500 m2"
+    },
+    {
+      "label": "Filter pressure",
+      "value": "0.2 ~ 1.6 MPa"
+    },
+    {
+      "label": "Heat-resisting temperature",
+      "value": "0 ~ 120 °C"
+    },
+    {
+      "label": "Material",
+      "value": "Cast iron, intensified polypropylene, glass fiber high-temperature polypropylene, stainless steel"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 3
+}

@@ -1,0 +1,42 @@
+{
+  "id": "reqxkr",
+  "title": "Lamella Clarifier Package Wastewater Treatment Tank Industrial Ef",
+  "category": "lamella-clarifier",
+  "summary": "Lamella Clarifier Package Wastewater Treatment Tank Industrial Ef for compact sedimentation, clarification, and wastewater treatment flows.",
+  "images": [
+    "/images/products/lamella-clarifier/10-lamella-clarifier-package-wastewater-treatment-tank-industrial-ef/01.png",
+    "/images/products/lamella-clarifier/10-lamella-clarifier-package-wastewater-treatment-tank-industrial-ef/02.png",
+    "/images/products/lamella-clarifier/10-lamella-clarifier-package-wastewater-treatment-tank-industrial-ef/03.png",
+    "/images/products/lamella-clarifier/10-lamella-clarifier-package-wastewater-treatment-tank-industrial-ef/04.png",
+    "/images/products/lamella-clarifier/10-lamella-clarifier-package-wastewater-treatment-tank-industrial-ef/05.png",
+    "/images/products/lamella-clarifier/10-lamella-clarifier-package-wastewater-treatment-tank-industrial-ef/06.png"
+  ],
+  "featuredImage": "/images/products/lamella-clarifier/10-lamella-clarifier-package-wastewater-treatment-tank-industrial-ef/01.png",
+  "bullets": [
+    "Inclined-plate clarification design",
+    "Compact settling footprint",
+    "Supports suspended-solids reduction",
+    "Configurable tank and material options"
+  ],
+  "specs": [
+    {
+      "label": "Category",
+      "value": "Lamella Clarifier"
+    },
+    {
+      "label": "Application",
+      "value": "Wastewater treatment"
+    },
+    {
+      "label": "Configuration",
+      "value": "Project-specific"
+    },
+    {
+      "label": "Material",
+      "value": "SS / coated steel options"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 19
+}

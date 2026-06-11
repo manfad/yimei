@@ -1,0 +1,46 @@
+{
+  "id": "19fl2f",
+  "title": "Domestic Package Small Integrated Waste Water Treatment Wastewa",
+  "category": "waste-water-treatment-equipment",
+  "summary": "An integrated package wastewater treatment plant for properties without mains drainage, treating domestic and small commercial sewage through a combined activated sludge and membrane biochemical process. The compact unit can be installed above ground or underground and discharges treated effluent to a watercourse or ditch.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/29-domestic-package-small-integrated-waste-water-treatment-wastewa/01.png",
+    "/images/products/waste-water-treatment-equipment/29-domestic-package-small-integrated-waste-water-treatment-wastewa/05.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/29-domestic-package-small-integrated-waste-water-treatment-wastewa/01.png",
+  "bullets": [
+    "No odours and no internal moving parts",
+    "Efficient continuous bacterial digestion process",
+    "Compact for above-ground or underground installation",
+    "Fully automatic operation with alarm beacon"
+  ],
+  "specs": [
+    {
+      "label": "Model",
+      "value": "DMS2 / DMS3 / DMS4 / DMS5"
+    },
+    {
+      "label": "Population range",
+      "value": "1-6 to 14-20 persons"
+    },
+    {
+      "label": "BOD",
+      "value": "20 mg/l"
+    },
+    {
+      "label": "Suspended solids",
+      "value": "30 mg/l"
+    },
+    {
+      "label": "Ammoniacal nitrogen",
+      "value": "20 mg/l"
+    },
+    {
+      "label": "Tank material",
+      "value": "Carbon steel with epoxy anticorrosive paint or glassfiber coating"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 62
+}

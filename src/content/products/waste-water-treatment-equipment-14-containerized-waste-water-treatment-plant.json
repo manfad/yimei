@@ -1,0 +1,44 @@
+{
+  "id": "fit6m3",
+  "title": "Containerized Waste Water Treatment Plant",
+  "category": "waste-water-treatment-equipment",
+  "summary": "An integrated, packaged containerized treatment plant combining the activated sludge microbiological method with a new biological membrane manner to treat municipal and industrial wastewater.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/14-containerized-waste-water-treatment-plant/01.png",
+    "/images/products/waste-water-treatment-equipment/14-containerized-waste-water-treatment-plant/02.png",
+    "/images/products/waste-water-treatment-equipment/14-containerized-waste-water-treatment-plant/05.png",
+    "/images/products/waste-water-treatment-equipment/14-containerized-waste-water-treatment-plant/06.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/14-containerized-waste-water-treatment-plant/01.png",
+  "bullets": [
+    "Stable Grade 1A effluent quality",
+    "Compact above-ground or underground installation",
+    "Fully automatic operation",
+    "Supports AO, MBBR, SBR and MBR processes"
+  ],
+  "specs": [
+    {
+      "label": "Models",
+      "value": "YMSZ-1 to YMSZ-30"
+    },
+    {
+      "label": "Capacity",
+      "value": "1-30 m³/h"
+    },
+    {
+      "label": "Contact Oxidation Tank",
+      "value": "5-130 m³"
+    },
+    {
+      "label": "Air Blower",
+      "value": "HC-25IS to HC-100IS"
+    },
+    {
+      "label": "Total Weight",
+      "value": "5.5-29 tonnes"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 47
+}

@@ -1,0 +1,50 @@
+{
+  "id": "xvair5",
+  "title": "Dissolved Air Flotation Machine Plc Controlled Pump Pressure Vess",
+  "category": "waste-water-treatment-equipment",
+  "summary": "A PLC-controlled dissolved air flotation machine that removes suspended solids, oils, and contaminants from industrial and domestic wastewater using air flotation technology to deliver stable, high-quality effluent.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/54-dissolved-air-flotation-machine-plc-controlled-pump-pressure-vess/01.png",
+    "/images/products/waste-water-treatment-equipment/54-dissolved-air-flotation-machine-plc-controlled-pump-pressure-vess/02.png",
+    "/images/products/waste-water-treatment-equipment/54-dissolved-air-flotation-machine-plc-controlled-pump-pressure-vess/03.png",
+    "/images/products/waste-water-treatment-equipment/54-dissolved-air-flotation-machine-plc-controlled-pump-pressure-vess/04.png",
+    "/images/products/waste-water-treatment-equipment/54-dissolved-air-flotation-machine-plc-controlled-pump-pressure-vess/05.png",
+    "/images/products/waste-water-treatment-equipment/54-dissolved-air-flotation-machine-plc-controlled-pump-pressure-vess/06.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/54-dissolved-air-flotation-machine-plc-controlled-pump-pressure-vess/01.png",
+  "bullets": [
+    "Dissolved gas efficiency up to 99%",
+    "Fully automatic PLC-controlled operation",
+    "Compact above-ground or underground installation",
+    "Achieves Grade 1A effluent quality"
+  ],
+  "specs": [
+    {
+      "label": "Capacity",
+      "value": "500 L/Hour"
+    },
+    {
+      "label": "Power",
+      "value": "70 KW"
+    },
+    {
+      "label": "Voltage",
+      "value": "220V"
+    },
+    {
+      "label": "Operating Pressure",
+      "value": "0.35 MPa"
+    },
+    {
+      "label": "Control System",
+      "value": "PLC Controlled"
+    },
+    {
+      "label": "Material",
+      "value": "Carbon steel with epoxy anti-corrosion coating or fiberglass"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 87
+}

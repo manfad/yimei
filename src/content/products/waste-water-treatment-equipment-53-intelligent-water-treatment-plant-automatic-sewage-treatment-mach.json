@@ -1,0 +1,50 @@
+{
+  "id": "u7i11f",
+  "title": "Intelligent Water Treatment Plant Automatic Sewage Treatment Mach",
+  "category": "waste-water-treatment-equipment",
+  "summary": "A packaged sewage treatment plant combining MBBR and MBR biological technology to purify domestic and industrial wastewater. It runs fully automatically and is built for compact above-ground or underground installation.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/53-intelligent-water-treatment-plant-automatic-sewage-treatment-mach/01.png",
+    "/images/products/waste-water-treatment-equipment/53-intelligent-water-treatment-plant-automatic-sewage-treatment-mach/02.png",
+    "/images/products/waste-water-treatment-equipment/53-intelligent-water-treatment-plant-automatic-sewage-treatment-mach/03.png",
+    "/images/products/waste-water-treatment-equipment/53-intelligent-water-treatment-plant-automatic-sewage-treatment-mach/04.png",
+    "/images/products/waste-water-treatment-equipment/53-intelligent-water-treatment-plant-automatic-sewage-treatment-mach/05.png",
+    "/images/products/waste-water-treatment-equipment/53-intelligent-water-treatment-plant-automatic-sewage-treatment-mach/06.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/53-intelligent-water-treatment-plant-automatic-sewage-treatment-mach/01.png",
+  "bullets": [
+    "Fully automatic operation, stable performance",
+    "Stable Grade 1A effluent quality",
+    "Compact above-ground or underground installation",
+    "No blocking, no backwashing required"
+  ],
+  "specs": [
+    {
+      "label": "Model Range",
+      "value": "YMSZ-1 to YMSZ-30"
+    },
+    {
+      "label": "Capacity",
+      "value": "1 - 30 m³/h"
+    },
+    {
+      "label": "Sludge Concentration",
+      "value": "30 - 40 g/L"
+    },
+    {
+      "label": "Weight",
+      "value": "5.5 - 29 t"
+    },
+    {
+      "label": "Occupied Area",
+      "value": "6 - 115 m³"
+    },
+    {
+      "label": "Material",
+      "value": "Carbon steel with epoxy anticorrosive paint or fiberglass coating"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 86
+}

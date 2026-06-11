@@ -1,0 +1,48 @@
+{
+  "id": "2jkii9",
+  "title": "Efficient Rotary Mechanical Bar Screen For Municipal Wastewater T",
+  "category": "waste-water-treatment-equipment",
+  "summary": "The YMHG rotary bar screen is an automatic solid-liquid separation device that continuously removes debris and solids from municipal wastewater and industrial water intake. It is widely used in sewage treatment plants, water supply facilities, and industrial processing applications.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/23-efficient-rotary-mechanical-bar-screen-for-municipal-wastewater-t/01.png",
+    "/images/products/waste-water-treatment-equipment/23-efficient-rotary-mechanical-bar-screen-for-municipal-wastewater-t/02.png",
+    "/images/products/waste-water-treatment-equipment/23-efficient-rotary-mechanical-bar-screen-for-municipal-wastewater-t/03.png",
+    "/images/products/waste-water-treatment-equipment/23-efficient-rotary-mechanical-bar-screen-for-municipal-wastewater-t/05.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/23-efficient-rotary-mechanical-bar-screen-for-municipal-wastewater-t/01.png",
+  "bullets": [
+    "Continuous automatic debris elimination",
+    "High separation efficiency, low power, no noise",
+    "Good corrosion resistance for steady operation",
+    "Overload protection with auto alarm and shutdown"
+  ],
+  "specs": [
+    {
+      "label": "Model",
+      "value": "YMHG-600"
+    },
+    {
+      "label": "Channel Width (W0)",
+      "value": "600 mm"
+    },
+    {
+      "label": "Power",
+      "value": "1.1-2.2 kW"
+    },
+    {
+      "label": "Screen Speed",
+      "value": "~2 m/min"
+    },
+    {
+      "label": "Installation Angle",
+      "value": "60deg-80deg"
+    },
+    {
+      "label": "Total Width (W1)",
+      "value": "950 mm"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 56
+}

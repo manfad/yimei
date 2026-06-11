@@ -1,0 +1,49 @@
+{
+  "id": "1uzjc3",
+  "title": "Sewage Wastewater Treatment Plant Mbr Mbbr Plc Motor 50m3d Capaci",
+  "category": "waste-water-treatment-equipment",
+  "summary": "An integrated packaged wastewater treatment plant combining activated sludge and biological membrane (MBR/MBBR) technology for municipal and industrial sewage, producing Grade 1A effluent quality.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/03-sewage-wastewater-treatment-plant-mbr-mbbr-plc-motor-50m3d-capaci/01.png",
+    "/images/products/waste-water-treatment-equipment/03-sewage-wastewater-treatment-plant-mbr-mbbr-plc-motor-50m3d-capaci/02.png",
+    "/images/products/waste-water-treatment-equipment/03-sewage-wastewater-treatment-plant-mbr-mbbr-plc-motor-50m3d-capaci/03.png",
+    "/images/products/waste-water-treatment-equipment/03-sewage-wastewater-treatment-plant-mbr-mbbr-plc-motor-50m3d-capaci/04.png",
+    "/images/products/waste-water-treatment-equipment/03-sewage-wastewater-treatment-plant-mbr-mbbr-plc-motor-50m3d-capaci/05.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/03-sewage-wastewater-treatment-plant-mbr-mbbr-plc-motor-50m3d-capaci/01.png",
+  "bullets": [
+    "Stable Grade 1A effluent quality",
+    "Compact above-ground or underground installation",
+    "Fully automatic, stable operation",
+    "Biological carriers improve treatment efficiency"
+  ],
+  "specs": [
+    {
+      "label": "Model Range",
+      "value": "YMSZ-1 to YMSZ-30"
+    },
+    {
+      "label": "Capacity",
+      "value": "1–30 m³/h"
+    },
+    {
+      "label": "Contact Oxidation Tank",
+      "value": "5.0–130 m³"
+    },
+    {
+      "label": "Air Blower Power",
+      "value": "0.4–5.5 kW"
+    },
+    {
+      "label": "Sewage Pump Power",
+      "value": "1.0–1.6 kW"
+    },
+    {
+      "label": "Footprint",
+      "value": "6–115 m²"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 36
+}

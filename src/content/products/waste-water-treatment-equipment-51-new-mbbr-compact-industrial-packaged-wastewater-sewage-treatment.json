@@ -1,0 +1,46 @@
+{
+  "id": "1zvu3r",
+  "title": "New Mbbr Compact Industrial Packaged Wastewater Sewage Treatment",
+  "category": "waste-water-treatment-equipment",
+  "summary": "An integrated MBBR (Moving Bed Biofilm Reactor) packaged wastewater treatment system for properties not connected to mains drainage, delivering high-quality effluent for domestic and commercial applications.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/51-new-mbbr-compact-industrial-packaged-wastewater-sewage-treatment/01.png",
+    "/images/products/waste-water-treatment-equipment/51-new-mbbr-compact-industrial-packaged-wastewater-sewage-treatment/02.png",
+    "/images/products/waste-water-treatment-equipment/51-new-mbbr-compact-industrial-packaged-wastewater-sewage-treatment/03.png",
+    "/images/products/waste-water-treatment-equipment/51-new-mbbr-compact-industrial-packaged-wastewater-sewage-treatment/04.png",
+    "/images/products/waste-water-treatment-equipment/51-new-mbbr-compact-industrial-packaged-wastewater-sewage-treatment/05.png",
+    "/images/products/waste-water-treatment-equipment/51-new-mbbr-compact-industrial-packaged-wastewater-sewage-treatment/06.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/51-new-mbbr-compact-industrial-packaged-wastewater-sewage-treatment/01.png",
+  "bullets": [
+    "No odours, no internal moving parts",
+    "Up to 3 year de-sludge intervals",
+    "Compact design with minimal excavation",
+    "Fully automatic operation with alarm beacon"
+  ],
+  "specs": [
+    {
+      "label": "Technology",
+      "value": "MBBR with biological carrier system"
+    },
+    {
+      "label": "Population range",
+      "value": "1-20 persons (DMS2-DMS5)"
+    },
+    {
+      "label": "Maximum BOD/day",
+      "value": "360-1200 grams"
+    },
+    {
+      "label": "Blower motor size",
+      "value": "0.105-0.216 kW"
+    },
+    {
+      "label": "Material",
+      "value": "Carbon steel with epoxy paint or fiberglass coating"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 84
+}

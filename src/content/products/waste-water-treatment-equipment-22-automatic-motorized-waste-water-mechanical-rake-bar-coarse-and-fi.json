@@ -1,0 +1,48 @@
+{
+  "id": "2iuot6",
+  "title": "Automatic Motorized Waste Water Mechanical Rake Bar Coarse And Fi",
+  "category": "waste-water-treatment-equipment",
+  "summary": "A rotary mechanical rake bar screen that automatically removes solid debris from wastewater in sewage treatment plants, water supply systems, and industrial applications. It serves as solid-liquid separation equipment for continuous pre-treatment of contaminated fluids.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/22-automatic-motorized-waste-water-mechanical-rake-bar-coarse-and-fi/01.png",
+    "/images/products/waste-water-treatment-equipment/22-automatic-motorized-waste-water-mechanical-rake-bar-coarse-and-fi/02.png",
+    "/images/products/waste-water-treatment-equipment/22-automatic-motorized-waste-water-mechanical-rake-bar-coarse-and-fi/03.png",
+    "/images/products/waste-water-treatment-equipment/22-automatic-motorized-waste-water-mechanical-rake-bar-coarse-and-fi/04.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/22-automatic-motorized-waste-water-mechanical-rake-bar-coarse-and-fi/01.png",
+  "bullets": [
+    "High automaticity and separative efficiency",
+    "Self-cleaning design prevents blocking",
+    "Overload protection with alarm and shutdown",
+    "Corrosion-resistant construction"
+  ],
+  "specs": [
+    {
+      "label": "Model Range",
+      "value": "YMGS300-1500 (by width)"
+    },
+    {
+      "label": "Screen Gap Options",
+      "value": "1mm, 3mm, 5mm, 10mm, 20mm, 30mm, 40mm, 50mm"
+    },
+    {
+      "label": "Rake Tooth Material",
+      "value": "ABS engineering plastic, nylon, or stainless steel"
+    },
+    {
+      "label": "Frame Material",
+      "value": "Stainless steel or carbon steel with antiseptic coating"
+    },
+    {
+      "label": "Operation Mode",
+      "value": "Continuous or intermittent"
+    },
+    {
+      "label": "Control",
+      "value": "Automatic level-based or manual operation"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 55
+}

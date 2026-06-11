@@ -1,0 +1,36 @@
+{
+  "id": "tsg6w8",
+  "title": "High Efficiency Dissolved Air Flotation Machine Industrial Wast",
+  "category": "waste-water-treatment-equipment",
+  "summary": "A dissolved air flotation (DAF) machine for solid-liquid separation that removes tiny suspended solids from industrial wastewater. It is used across food processing, manufacturing, dairy, and steel industry treatment operations.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/52-high-efficiency-dissolved-air-flotation-machine-industrial-wast/02.png",
+    "/images/products/waste-water-treatment-equipment/52-high-efficiency-dissolved-air-flotation-machine-industrial-wast/04.png",
+    "/images/products/waste-water-treatment-equipment/52-high-efficiency-dissolved-air-flotation-machine-industrial-wast/05.png",
+    "/images/products/waste-water-treatment-equipment/52-high-efficiency-dissolved-air-flotation-machine-industrial-wast/06.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/52-high-efficiency-dissolved-air-flotation-machine-industrial-wast/02.png",
+  "bullets": [
+    "Solid-liquid separation equipment",
+    "Removes tiny suspended solids",
+    "PLC controlled operation",
+    "Equipped with pump and pressure vessel"
+  ],
+  "specs": [
+    {
+      "label": "Flow Rate",
+      "value": "500 L/Hour"
+    },
+    {
+      "label": "Power",
+      "value": "70 KW"
+    },
+    {
+      "label": "Voltage",
+      "value": "220V"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 85
+}

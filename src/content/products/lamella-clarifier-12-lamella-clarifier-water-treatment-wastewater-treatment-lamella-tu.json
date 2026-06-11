@@ -1,0 +1,50 @@
+{
+  "id": "nyvflk",
+  "title": "Lamella Clarifier Water Treatment Wastewater Treatment Lamella Tu",
+  "category": "lamella-clarifier",
+  "summary": "A high-efficiency inclined-tube sedimentation tank that separates suspended solids from water and wastewater using densely packed 60-degree inclined tube packing. It boosts sediment efficiency and treatment capacity in a compact footprint, suitable for electroplating, mining, printing/dyeing, and tannery wastewater.",
+  "images": [
+    "/images/products/lamella-clarifier/12-lamella-clarifier-water-treatment-wastewater-treatment-lamella-tu/01.png",
+    "/images/products/lamella-clarifier/12-lamella-clarifier-water-treatment-wastewater-treatment-lamella-tu/02.png",
+    "/images/products/lamella-clarifier/12-lamella-clarifier-water-treatment-wastewater-treatment-lamella-tu/03.png",
+    "/images/products/lamella-clarifier/12-lamella-clarifier-water-treatment-wastewater-treatment-lamella-tu/04.png",
+    "/images/products/lamella-clarifier/12-lamella-clarifier-water-treatment-wastewater-treatment-lamella-tu/05.png",
+    "/images/products/lamella-clarifier/12-lamella-clarifier-water-treatment-wastewater-treatment-lamella-tu/06.png"
+  ],
+  "featuredImage": "/images/products/lamella-clarifier/12-lamella-clarifier-water-treatment-wastewater-treatment-lamella-tu/01.png",
+  "bullets": [
+    "Improves sediment efficiency 50-60%",
+    "3-5x greater treatment capacity",
+    "Compact design, minimal space and investment",
+    "Simple structure without wearing parts"
+  ],
+  "specs": [
+    {
+      "label": "Inclined tube angle",
+      "value": "60 degrees"
+    },
+    {
+      "label": "Sediment efficiency improvement",
+      "value": "50-60%"
+    },
+    {
+      "label": "Treatment capacity",
+      "value": "3-5x in the same area"
+    },
+    {
+      "label": "Turbidity reduction",
+      "value": "From 500-1500 mg/L down to 5 mg/L"
+    },
+    {
+      "label": "Material",
+      "value": "Carbon steel Q235A (usually 6mm); SS 304/316/316L optional"
+    },
+    {
+      "label": "Interior protection",
+      "value": "Epoxy asphalt, FRP, or PTFE lining"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 21
+}

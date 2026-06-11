@@ -1,0 +1,46 @@
+{
+  "id": "1i0w4v",
+  "title": "Packaged Sewage Treatment Plant Container Wastewater Treatment Sy",
+  "category": "waste-water-treatment-equipment",
+  "summary": "The WPL range of package sewage treatment plants is specifically designed for properties not connected to mains drainage, providing on-site treatment for domestic and commercial wastewater applications.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/28-packaged-sewage-treatment-plant-container-wastewater-treatment-sy/03.png",
+    "/images/products/waste-water-treatment-equipment/28-packaged-sewage-treatment-plant-container-wastewater-treatment-sy/04.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/28-packaged-sewage-treatment-plant-container-wastewater-treatment-sy/03.png",
+  "bullets": [
+    "No odors, no primary settlement required",
+    "Up to 3 year de-sludge intervals",
+    "No internal moving parts, minimal maintenance",
+    "Compact design for above-ground or underground installation"
+  ],
+  "specs": [
+    {
+      "label": "Model Range",
+      "value": "DMS2, DMS3, DMS4, DMS5"
+    },
+    {
+      "label": "Population Capacity",
+      "value": "1-6 to 14-20 persons (by model)"
+    },
+    {
+      "label": "Maximum BOD/day",
+      "value": "360g (DMS2) to 1,200g (DMS5)"
+    },
+    {
+      "label": "Blower Motor Size",
+      "value": "0.105 to 0.216 kW (single phase)"
+    },
+    {
+      "label": "Tank Material",
+      "value": "Carbon steel with epoxy anticorrosive paint or fiberglass coating"
+    },
+    {
+      "label": "Treatment Method",
+      "value": "MBBR with activated sludge"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 61
+}

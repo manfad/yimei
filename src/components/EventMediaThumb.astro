@@ -1,0 +1,27 @@
+---
+import { isVideoSrc } from '../lib/catalog';
+
+interface Props {
+  src: string;
+  alt: string;
+  loading?: 'lazy' | 'eager';
+}
+
+const { src, alt, loading = 'lazy' } = Astro.props;
+const isVideo = isVideoSrc(src);
+---
+
+{
+  isVideo ? (
+    <>
+      <video src={`${src}#t=0.5`} preload="metadata" muted playsinline aria-label={alt} />
+      <span class="media-play" aria-hidden="true">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M8 5v14l11-7z" />
+        </svg>
+      </span>
+    </>
+  ) : (
+    <img src={src} alt={alt} loading={loading} decoding="async" />
+  )
+}

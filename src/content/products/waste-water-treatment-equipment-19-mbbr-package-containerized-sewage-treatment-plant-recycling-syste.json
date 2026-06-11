@@ -1,0 +1,50 @@
+{
+  "id": "u92lg2",
+  "title": "Mbbr Package Containerized Sewage Treatment Plant Recycling Syste",
+  "category": "waste-water-treatment-equipment",
+  "summary": "A containerized package sewage treatment plant for properties without mains drainage, treating domestic and commercial wastewater for up to 55 persons using biochemical and membrane technology.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/19-mbbr-package-containerized-sewage-treatment-plant-recycling-syste/01.jpg",
+    "/images/products/waste-water-treatment-equipment/19-mbbr-package-containerized-sewage-treatment-plant-recycling-syste/02.jpg",
+    "/images/products/waste-water-treatment-equipment/19-mbbr-package-containerized-sewage-treatment-plant-recycling-syste/03.jpg",
+    "/images/products/waste-water-treatment-equipment/19-mbbr-package-containerized-sewage-treatment-plant-recycling-syste/04.jpg",
+    "/images/products/waste-water-treatment-equipment/19-mbbr-package-containerized-sewage-treatment-plant-recycling-syste/05.jpg",
+    "/images/products/waste-water-treatment-equipment/19-mbbr-package-containerized-sewage-treatment-plant-recycling-syste/06.jpg"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/19-mbbr-package-containerized-sewage-treatment-plant-recycling-syste/01.jpg",
+  "bullets": [
+    "No odours, no internal moving parts",
+    "Efficient continuous bacterial digestion",
+    "Above-ground or underground installation",
+    "Fully automatic operation with alarm beacon"
+  ],
+  "specs": [
+    {
+      "label": "Model",
+      "value": "DMS2 / DMS3 / DMS4 / DMS5"
+    },
+    {
+      "label": "Population Range",
+      "value": "1-6 to 14-20 persons"
+    },
+    {
+      "label": "Max BOD/day",
+      "value": "360 to 1200 grams"
+    },
+    {
+      "label": "Blower Motor Size",
+      "value": "0.105 to 0.216 kW"
+    },
+    {
+      "label": "Tank Material",
+      "value": "Carbon steel with epoxy paint or fiberglass coating"
+    },
+    {
+      "label": "Effluent Quality",
+      "value": "Grade 1A (BOD 20mg/l, SS 30mg/l, Ammoniacal Nitrogen 20mg/l)"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 52
+}

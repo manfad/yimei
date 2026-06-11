@@ -1,0 +1,43 @@
+{
+  "id": "102rzd",
+  "title": "Chemical Polymer Dosing Station Flocculant Preparation Dosing Sys",
+  "category": "waste-water-treatment-equipment",
+  "summary": "An intelligent automatic system that continuously prepares and doses dry powder chemicals for wastewater treatment, integrating water supply, powder dissolution, curing, and automatic control for flocculant and coagulant delivery.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/35-chemical-polymer-dosing-station-flocculant-preparation-dosing-sys/01.png",
+    "/images/products/waste-water-treatment-equipment/35-chemical-polymer-dosing-station-flocculant-preparation-dosing-sys/03.png",
+    "/images/products/waste-water-treatment-equipment/35-chemical-polymer-dosing-station-flocculant-preparation-dosing-sys/06.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/35-chemical-polymer-dosing-station-flocculant-preparation-dosing-sys/01.png",
+  "bullets": [
+    "High degree of automation, PLC controlled",
+    "Spiral feeder with closed-loop speed control, precision within 1%",
+    "Three-tank overflow design, compact structure",
+    "SS304 and PP tank materials"
+  ],
+  "specs": [
+    {
+      "label": "Model",
+      "value": "YMJY-500 to YMJY-4000"
+    },
+    {
+      "label": "Capacity Range",
+      "value": "500-4000 L/h"
+    },
+    {
+      "label": "Power",
+      "value": "1.47 kW (smallest) to 4.77 kW (largest)"
+    },
+    {
+      "label": "Tank Material",
+      "value": "SS304, PP"
+    },
+    {
+      "label": "Ripening Time",
+      "value": "2 hours (guaranteed)"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 68
+}

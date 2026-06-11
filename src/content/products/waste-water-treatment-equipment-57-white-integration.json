@@ -1,0 +1,48 @@
+{
+  "id": "wkhr3i",
+  "title": "Containerized Integrated Sewage Treatment Plant",
+  "category": "waste-water-treatment-equipment",
+  "summary": "An integrated, containerized sewage treatment plant combining activated sludge and membrane bioreactor technology to treat domestic and industrial wastewater. Designed for above-ground or underground installation with fully automatic operation.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/57-white-integration/01.png",
+    "/images/products/waste-water-treatment-equipment/57-white-integration/02.png",
+    "/images/products/waste-water-treatment-equipment/57-white-integration/03.png",
+    "/images/products/waste-water-treatment-equipment/57-white-integration/06.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/57-white-integration/01.png",
+  "bullets": [
+    "Stable Grade 1A effluent quality",
+    "Compact above-ground or underground installation",
+    "Fully automatic operation",
+    "MBBR, MBR, AO and SBR processes"
+  ],
+  "specs": [
+    {
+      "label": "Models",
+      "value": "YMSZ-1 to YMSZ-30"
+    },
+    {
+      "label": "Capacity",
+      "value": "1–30 m³/h (varies by model)"
+    },
+    {
+      "label": "Power",
+      "value": "0.4–5.5 kW"
+    },
+    {
+      "label": "Total Weight",
+      "value": "5.5–29 tons"
+    },
+    {
+      "label": "Footprint",
+      "value": "6–115 m²"
+    },
+    {
+      "label": "Certification",
+      "value": "CE certified"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 90
+}

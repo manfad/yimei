@@ -1,19 +1,23 @@
 ---
-import type { Event } from '../data/events';
+import type { Event } from '../lib/catalog';
 
 interface Props {
   event: Event;
 }
 
 const { event } = Astro.props;
-const chipClass = event.type === 'Collaboration' ? 'chip leaf' : 'chip';
 ---
 
 <a class="evcard reveal" href={`/events/${event.id}`}>
-  <div class="ph ph--center" data-label={event.title}></div>
+  {
+    event.featuredImage ? (
+      <img class="event-img" src={event.featuredImage} alt="" loading="lazy" decoding="async" />
+    ) : (
+      <div class="ph ph--center" data-label={event.title} />
+    )
+  }
   <div class="evcard-body">
     <div class="ev-top">
-      <span class={chipClass}>{event.type}</span>
       <span class="ev-date">{event.date}</span>
     </div>
     <h4>{event.title}</h4>

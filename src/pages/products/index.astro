@@ -2,8 +2,12 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import PageHero from '../../components/PageHero.astro';
 import ProductCard from '../../components/ProductCard.astro';
-import { categories } from '../../data/categories';
-import { products } from '../../data/products';
+import { getCollection } from 'astro:content';
+import { byOrderThenName, categories, toProduct } from '../../lib/catalog';
+
+const products = (await getCollection('products', ({ data }) => !data.draft))
+  .map(toProduct)
+  .sort(byOrderThenName);
 
 const initialFilter = Astro.url.searchParams.get('cat') ?? 'all';
 const validIds = ['all', ...categories.map((c) => c.id)];
@@ -15,8 +19,8 @@ const filter = validIds.includes(initialFilter) ? initialFilter : 'all';
     <div class="container">
       <PageHero
         eyebrow="Products &amp; Solutions"
-        title="Five categories, one continuous treatment flow."
-        lead="Pick a category on the left to filter the range — from the moment effluent is captured to the point clean water is returned."
+        title="Treatment equipment, organized for fast selection."
+        lead="Pick a category on the left to filter the product range, then open any item to review images, specs and enquiry details."
       />
 
       <div class="prod-layout">

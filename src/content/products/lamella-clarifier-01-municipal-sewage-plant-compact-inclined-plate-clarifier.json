@@ -1,0 +1,46 @@
+{
+  "id": "d89u09",
+  "title": "Municipal Sewage Plant Compact Inclined Plate Clarifier",
+  "category": "lamella-clarifier",
+  "summary": "A highly efficient combined clarifier equipped with dense inclined tube fillers that precipitate suspended impurities in water. Its compact footprint suits wastewater treatment plants, with stable Grade 1A effluent quality.",
+  "images": [
+    "/images/products/lamella-clarifier/01-municipal-sewage-plant-compact-inclined-plate-clarifier/01.png",
+    "/images/products/lamella-clarifier/01-municipal-sewage-plant-compact-inclined-plate-clarifier/02.png",
+    "/images/products/lamella-clarifier/01-municipal-sewage-plant-compact-inclined-plate-clarifier/03.png",
+    "/images/products/lamella-clarifier/01-municipal-sewage-plant-compact-inclined-plate-clarifier/04.png",
+    "/images/products/lamella-clarifier/01-municipal-sewage-plant-compact-inclined-plate-clarifier/05.png",
+    "/images/products/lamella-clarifier/01-municipal-sewage-plant-compact-inclined-plate-clarifier/06.png"
+  ],
+  "featuredImage": "/images/products/lamella-clarifier/01-municipal-sewage-plant-compact-inclined-plate-clarifier/01.png",
+  "bullets": [
+    "Stable Grade 1A effluent quality",
+    "Compact above-ground or underground installation",
+    "Fully automatic operation",
+    "Service life exceeding 10 years"
+  ],
+  "specs": [
+    {
+      "label": "Size",
+      "value": "5.0 x 2.2 x 2.2 m"
+    },
+    {
+      "label": "Material",
+      "value": "Carbon steel with epoxy resin, fiberglass, or SS 304"
+    },
+    {
+      "label": "Water supply pressure",
+      "value": "0.1-0.2 MPa"
+    },
+    {
+      "label": "Inclined tube packing",
+      "value": "PP, PVC, or FRP at 60 degree inclination"
+    },
+    {
+      "label": "Warranty",
+      "value": "1 year"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 10
+}

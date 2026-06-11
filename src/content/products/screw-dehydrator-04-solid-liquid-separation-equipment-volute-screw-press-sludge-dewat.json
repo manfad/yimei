@@ -1,0 +1,40 @@
+{
+  "id": "1jc0of",
+  "title": "Solid Liquid Separation Equipment Volute Screw Press Sludge Dewat",
+  "category": "screw-dehydrator",
+  "summary": "A volute screw press that dewaters sludge using the extrusion pressure created by the changing screw diameter and pitch together with the gap between moving and fixed rings. It is widely used for solid-liquid separation in municipal and industrial wastewater treatment.",
+  "images": [
+    "/images/products/screw-dehydrator/04-solid-liquid-separation-equipment-volute-screw-press-sludge-dewat/01.png",
+    "/images/products/screw-dehydrator/04-solid-liquid-separation-equipment-volute-screw-press-sludge-dewat/02.png",
+    "/images/products/screw-dehydrator/04-solid-liquid-separation-equipment-volute-screw-press-sludge-dewat/03.png",
+    "/images/products/screw-dehydrator/04-solid-liquid-separation-equipment-volute-screw-press-sludge-dewat/04.png"
+  ],
+  "featuredImage": "/images/products/screw-dehydrator/04-solid-liquid-separation-equipment-volute-screw-press-sludge-dewat/01.png",
+  "bullets": [
+    "Self-cleaning rings prevent clogging",
+    "Lower energy and water consumption",
+    "Fully automatic, stable operation",
+    "Handles low and high concentration sludge"
+  ],
+  "specs": [
+    {
+      "label": "Models",
+      "value": "YMDL101 to YMDL403A"
+    },
+    {
+      "label": "Throughput (volume)",
+      "value": "3-72 m³/h"
+    },
+    {
+      "label": "Throughput (dry solids)",
+      "value": "6-1,000 kg/h"
+    },
+    {
+      "label": "Sludge treatment range",
+      "value": "2000-50000 mg/L"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 27
+}

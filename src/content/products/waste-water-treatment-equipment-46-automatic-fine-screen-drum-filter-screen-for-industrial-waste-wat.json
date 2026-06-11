@@ -1,0 +1,50 @@
+{
+  "id": "ro4lkj",
+  "title": "Automatic Fine Screen Drum Filter Screen For Industrial Waste Wat",
+  "category": "waste-water-treatment-equipment",
+  "summary": "A fully automatic rotating drum filter screen for municipal and industrial wastewater pretreatment, continuously removing suspended solids to reduce the load on downstream treatment processes.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/46-automatic-fine-screen-drum-filter-screen-for-industrial-waste-wat/01.png",
+    "/images/products/waste-water-treatment-equipment/46-automatic-fine-screen-drum-filter-screen-for-industrial-waste-wat/02.png",
+    "/images/products/waste-water-treatment-equipment/46-automatic-fine-screen-drum-filter-screen-for-industrial-waste-wat/03.png",
+    "/images/products/waste-water-treatment-equipment/46-automatic-fine-screen-drum-filter-screen-for-industrial-waste-wat/04.png",
+    "/images/products/waste-water-treatment-equipment/46-automatic-fine-screen-drum-filter-screen-for-industrial-waste-wat/05.png",
+    "/images/products/waste-water-treatment-equipment/46-automatic-fine-screen-drum-filter-screen-for-industrial-waste-wat/06.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/46-automatic-fine-screen-drum-filter-screen-for-industrial-waste-wat/01.png",
+  "bullets": [
+    "Removes 30-60% of suspended solids",
+    "Strong auto-cleaning, anti-blockage operation",
+    "Compact stainless steel structure",
+    "Suits textile, food, leather and chemical industries"
+  ],
+  "specs": [
+    {
+      "label": "Model",
+      "value": "YMTP350×600"
+    },
+    {
+      "label": "Drum Size",
+      "value": "350 mm dia. × 600 mm length"
+    },
+    {
+      "label": "Motor Power",
+      "value": "0.25 kW"
+    },
+    {
+      "label": "Rotating Speed",
+      "value": "4-20 r/min"
+    },
+    {
+      "label": "Capacity",
+      "value": "8 m³/h (0.25mm) / 15 m³/h (0.5mm)"
+    },
+    {
+      "label": "Material",
+      "value": "Stainless steel"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 79
+}

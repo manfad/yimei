@@ -1,0 +1,47 @@
+{
+  "id": "1mtolj",
+  "title": "Wwtp Clean Waste Water Pretreatment Automatic Metal Mechanical Ro",
+  "category": "waste-water-treatment-equipment",
+  "summary": "The YMGS rotary bar screen is a solid-liquid separation device that continuously and automatically removes all kinds of solid sundries from the fluid. It is used for wastewater pretreatment and industrial applications.",
+  "images": [
+    "/images/products/waste-water-treatment-equipment/24-wwtp-clean-waste-water-pretreatment-automatic-metal-mechanical-ro/01.png",
+    "/images/products/waste-water-treatment-equipment/24-wwtp-clean-waste-water-pretreatment-automatic-metal-mechanical-ro/03.png",
+    "/images/products/waste-water-treatment-equipment/24-wwtp-clean-waste-water-pretreatment-automatic-metal-mechanical-ro/04.png"
+  ],
+  "featuredImage": "/images/products/waste-water-treatment-equipment/24-wwtp-clean-waste-water-pretreatment-automatic-metal-mechanical-ro/01.png",
+  "bullets": [
+    "High automaticity and separation efficiency",
+    "Low power consumption with minimal noise",
+    "Strong self-cleaning ability prevents blocking",
+    "Automatic overload protection with alarm"
+  ],
+  "specs": [
+    {
+      "label": "Model Series",
+      "value": "YMGS300-1500"
+    },
+    {
+      "label": "Width Range",
+      "value": "Up to 1500mm"
+    },
+    {
+      "label": "Screen Gap Options",
+      "value": "1, 3, 5, 10, 20, 30, 40, 50 mm"
+    },
+    {
+      "label": "Rake Tooth Material",
+      "value": "ABS engineering plastic, nylon, or stainless steel"
+    },
+    {
+      "label": "Frame Material",
+      "value": "Stainless steel or carbon steel with corrosion protection"
+    },
+    {
+      "label": "Operation Mode",
+      "value": "Continuous or intermittent (adjustable)"
+    }
+  ],
+  "featured": false,
+  "draft": false,
+  "order": 57
+}
