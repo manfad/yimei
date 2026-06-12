@@ -14,12 +14,27 @@ const images = event.images.length > 0 ? event.images : event.featuredImage ? [e
 const [main, thumb1, thumb2, ...rest] = images;
 const hasMore = rest.length > 0;
 
-// Share href is finalised client-side from window.location (no `site` configured),
-// but provide a sensible non-JS fallback path here.
-const facebookShareHref = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(Astro.url.pathname)}`;
+// Share href is finalised client-side from window.location; fall back to the
+// canonical absolute URL for non-JS clients now that `site` is configured.
+const canonicalEventURL = new URL(Astro.url.pathname, Astro.site).href;
+const facebookShareHref = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(canonicalEventURL)}`;
+
+const eventKeywords = [
+  event.title,
+  'Yimei event',
+  event.location,
+  'water treatment Malaysia',
+  'Yimei Environment Protection',
+].filter(Boolean);
 ---
 
-<BaseLayout title={`${event.title} — Yimei Environment Protection`} description={event.excerpt}>
+<BaseLayout
+  title={`${event.title} — Yimei Environment Protection`}
+  description={event.excerpt}
+  keywords={eventKeywords}
+  image={event.featuredImage || undefined}
+  type="article"
+>
   <section class="section">
     <div class="container ev-detail">
       <a class="textlink ev-detail__back" href="/events"><span class="arr">&larr;</span> Back to events</a>

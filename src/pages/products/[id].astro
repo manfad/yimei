@@ -4,6 +4,7 @@ import PageHero from '../../components/PageHero.astro';
 import ProductCard from '../../components/ProductCard.astro';
 import { getCollection } from 'astro:content';
 import { byOrderThenName, categoryName, toProduct } from '../../lib/catalog';
+import { SITE } from '../../lib/seo';
 
 export async function getStaticPaths() {
   const products = (await getCollection('products', ({ data }) => !data.draft))
@@ -29,9 +30,30 @@ const galleryImages = product.images.length > 0 ? product.images : product.featu
 const THUMB_TILES = 4;
 const collapseThumbs = galleryImages.length > THUMB_TILES;
 const visibleThumbs = collapseThumbs ? THUMB_TILES - 1 : galleryImages.length;
+
+const catName = categoryName(product.cat);
+// SEO: lead with the product description, fall back to a built sentence.
+const metaDescription = (
+  product.tag || `${product.name} — ${catName} from Yimei Environment Protection, supplied across Malaysia and Sabah.`
+).slice(0, 300);
+const productKeywords = [
+  product.name,
+  catName,
+  `${catName} Malaysia`,
+  'water treatment Malaysia',
+  'wastewater treatment Sabah',
+  'Yimei',
+];
+const productImage = product.featuredImage || SITE.ogImage;
 ---
 
-<BaseLayout title={`${product.name} — Yimei Environment Protection`}>
+<BaseLayout
+  title={`${product.name} — ${catName} | Yimei Environment Protection`}
+  description={metaDescription}
+  keywords={productKeywords}
+  image={productImage}
+  type="article"
+>
   <section class="section">
     <div class="container">
       <a class="back-link" href="/products" data-back>

@@ -2,16 +2,35 @@
 import '../styles/global.css';
 import SiteHeader from '../components/SiteHeader.astro';
 import SiteFooter from '../components/SiteFooter.astro';
+import { SITE, buildKeywords, organizationJsonLd } from '../lib/seo';
 
 interface Props {
   title?: string;
   description?: string;
+  /** Page-specific keywords, merged ahead of the site-wide defaults. */
+  keywords?: string[];
+  /** Social-share image path (absolute or site-relative). Defaults to the site OG image. */
+  image?: string;
+  /** Open Graph type — 'website' for landing pages, 'article' for products/events. */
+  type?: 'website' | 'article';
+  /** Set true on thin/utility pages that shouldn't be indexed. */
+  noindex?: boolean;
 }
 
 const {
-  title = 'Yimei Environment Protection',
-  description = 'Industrial wastewater treatment and water recovery solutions.',
+  title = 'Yimei Environment Protection — Water & Wastewater Treatment, Malaysia',
+  description = 'Yimei Environment Protection Technology supplies industrial water and wastewater treatment systems across Malaysia — turning effluent and heavy industrial waste into clean, reusable water.',
+  keywords = [],
+  image = SITE.ogImage,
+  type = 'website',
+  noindex = false,
 } = Astro.props;
+
+// Canonical + absolute OG URLs are derived from the configured `site` origin.
+const canonicalURL = new URL(Astro.url.pathname, Astro.site ?? SITE.url);
+const ogImageURL = new URL(image, Astro.site ?? SITE.url);
+const keywordsContent = buildKeywords(keywords);
+const orgLd = organizationJsonLd();
 ---
 
 <!doctype html>
@@ -19,17 +38,41 @@ const {
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
     <meta name="description" content={description} />
+    <meta name="keywords" content={keywordsContent} />
+    <meta name="author" content={SITE.legalName} />
+    <meta name="robots" content={noindex ? 'noindex, nofollow' : 'index, follow, max-image-preview:large'} />
+    <meta name="geo.region" content="MY-12" />
+    <meta name="geo.placename" content="Kota Kinabalu, Sabah, Malaysia" />
+    <link rel="canonical" href={canonicalURL.href} />
+
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content={type} />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL.href} />
+    <meta property="og:image" content={ogImageURL.href} />
+    <meta property="og:locale" content={SITE.locale} />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageURL.href} />
+
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
     <link rel="icon" href="/favicon.ico" sizes="48x48" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="sitemap" href="/sitemap.xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Hanken+Grotesk:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap"
       rel="stylesheet"
     />
-    <title>{title}</title>
+    <script type="application/ld+json" set:html={JSON.stringify(orgLd)} is:inline />
   </head>
   <body>
     <SiteHeader />

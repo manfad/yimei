@@ -14,7 +14,19 @@ const validIds = ['all', ...categories.map((c) => c.id)];
 const filter = validIds.includes(initialFilter) ? initialFilter : 'all';
 ---
 
-<BaseLayout title="Products — Yimei Environment Protection">
+<BaseLayout
+  title="Products — Water & Wastewater Treatment Equipment | Yimei Malaysia"
+  description="Browse Yimei's full range of water and wastewater treatment equipment — dissolved air flotation (DAF), lamella clarifiers, screw dehydrators, sludge dewatering presses and packaged MBR/MBBR sewage treatment plants, supplied across Malaysia and Sabah."
+  keywords={[
+    'water treatment equipment Malaysia',
+    'wastewater treatment equipment',
+    'dissolved air flotation machine',
+    'lamella clarifier',
+    'screw dehydrator',
+    'sludge dewatering screw press',
+    'MBR MBBR package plant',
+  ]}
+>
   <section class="section">
     <div class="container">
       <PageHero
