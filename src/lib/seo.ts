@@ -13,9 +13,10 @@ export const SITE = {
   email: 'sync.dyna@gmail.com',
   phone: '+60186655655',
   address: {
-    street: 'Lot 20, 2nd Floor, Likas Plaza, Phase 2, Likas',
-    city: 'Kota Kinabalu',
+    street: 'Lot 17 & 18 Block C, 1st Floor, Yun Fook Light Industrial Complex, ½ Miles, Keningau-Nabawan Road, P.O. Box 1733',
+    city: 'Keningau',
     region: 'Sabah',
+    postalCode: '89008',
     country: 'MY',
   },
 } as const;
@@ -91,6 +92,7 @@ export function organizationJsonLd() {
       streetAddress: SITE.address.street,
       addressLocality: SITE.address.city,
       addressRegion: SITE.address.region,
+      postalCode: SITE.address.postalCode,
       addressCountry: SITE.address.country,
     },
     areaServed: [
