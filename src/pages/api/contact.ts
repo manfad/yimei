@@ -7,7 +7,7 @@ import { Resend } from 'resend';
 export const prerender = false;
 
 // Where enquiries land. Falls back to the address shown on the contact page.
-const FALLBACK_NOTIFY_TO = 'sync.dyna@gmail.com';
+const FALLBACK_NOTIFY_TO = 'yimei.ept@gmail.com';
 // Resend lets you send from this sandbox address with ZERO domain setup, so the
 // form works on the very first deploy. Swap RESEND_FROM to a verified domain later.
 const FALLBACK_FROM = 'Yimei Website <onboarding@resend.dev>';

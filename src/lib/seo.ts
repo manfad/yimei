@@ -10,7 +10,7 @@ export const SITE = {
   ogImage: '/sketch2.png',
   locale: 'en_MY',
   twitter: '', // add @handle if a Twitter/X account exists
-  email: 'sync.dyna@gmail.com',
+  email: 'yimei.ept@gmail.com',
   phone: '+60186655655',
   address: {
     street: 'Lot 17 & 18 Block C, 1st Floor, Yun Fook Light Industrial Complex, ½ Miles, Keningau-Nabawan Road, P.O. Box 1733',
