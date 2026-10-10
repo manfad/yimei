@@ -1,4 +1,5 @@
 import { collection, config, fields } from '@keystatic/core';
+import { titleField } from './keystatic/title-field';
 
 // Local mode: edit at http://127.0.0.1:4321/keystatic while `pnpm dev` runs, then commit.
 // Field names must match the schemas in src/content.config.ts.
@@ -37,7 +38,7 @@ export default config({
           label: 'URL ID',
           description: 'Short id used in the page URL (/products/<id>). Keep it unique; leave existing values unchanged.',
         }),
-        title: fields.slug({ name: { label: 'Product name', validation: { isRequired: true } } }),
+        title: titleField({ label: 'Product name', validation: { isRequired: true } }),
         category: fields.select({
           label: 'Category',
           description: 'Which product range this appears under on the Products page.',
@@ -104,7 +105,7 @@ export default config({
           label: 'URL ID',
           description: 'Short id used in the page URL (/events/<id>). Leave empty to use the file name; once set, keep it unchanged.',
         }),
-        title: fields.slug({ name: { label: 'Event title', validation: { isRequired: true } } }),
+        title: titleField({ label: 'Event title', validation: { isRequired: true } }),
         date: fields.date({
           label: 'Date',
           description: 'Shown on the site as month and year, e.g. "Nov 2025".',
