@@ -2,7 +2,7 @@
 title: KPOM and Yimei Team Up on Mill Wastewater Treatment
 date: 2026-10-09
 location: Keningau, Sabah
-excerpt: Our wastewater treatment equipment is now in operation at Keningau Palm Oil Mill (KPOM), our sister company, treating the mill's palm oil mill effluent on site.
+excerpt: Our wastewater treatment equipment is now in operation at Keningau Palm Oil Mill (KPOM), treating the mill's palm oil mill effluent on site.
 videos:
   - /images/events/kpom-and-yimei-team-up-on-mill-wastewater-treatment/video-1.mp4
   - /images/events/kpom-and-yimei-team-up-on-mill-wastewater-treatment/video-2.mp4
@@ -10,9 +10,7 @@ feature: true
 draft: false
 order: 1
 ---
-Palm oil mills produce a large volume of wastewater, known as palm oil mill effluent (POME), and treating it properly is essential for any mill. **Keningau Palm Oil Mill (KPOM)** ([kpom.my](https://kpom.my)), our sister company in Keningau, Sabah, is no exception, and it is where Yimei's treatment equipment is now hard at work.
-
-These photos and videos, taken on **9 October 2026**, show the treatment plant at KPOM from the air and up close.
+Palm oil mills produce a large volume of wastewater, known as palm oil mill effluent (POME), and treating it properly is essential for any mill, including **Keningau Palm Oil Mill (KPOM)** ([kpom.my](https://kpom.my)).
 
 ![](/images/events/kpom-and-yimei-team-up-on-mill-wastewater-treatment/photo-1.jpg)
 
