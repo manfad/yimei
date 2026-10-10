@@ -328,7 +328,7 @@ p{margin:0}
 .ev-detail{max-width:920px}
 .ev-detail__back{display:inline-block;margin-bottom:28px}
 .ev-detail__back .arr,.detail-back .arr{display:inline-block}
-.ev-detail__title{color:#fff;max-width:18ch}
+.ev-detail__title{color:#fff;text-wrap:balance}
 .ev-detail__meta{display:flex;flex-wrap:wrap;align-items:center;gap:14px;margin-top:14px}
 .ev-detail__meta .ev-date{font-family:var(--mono);font-size:12.5px;color:var(--faint)}
 .ev-detail__lead{max-width:none;margin-top:22px;color:var(--text);font-size:clamp(16px,1.6vw,19px);line-height:1.7}

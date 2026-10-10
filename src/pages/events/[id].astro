@@ -127,7 +127,7 @@ const eventKeywords = [
 
       <div class="detail-body ev-detail__body">
         <Content />
-        {event.videos.map((src) => <video src={src} controls playsinline preload="metadata" />)}
+        {event.videos.map((src) => <video src={`${src}#t=0.5`} controls playsinline preload="metadata" />)}
       </div>
 
       <div class="detail-back">
