@@ -122,6 +122,18 @@ export default config({
           description: 'Optional — leave empty to use the first photo in the story.',
           ...eventImages,
         }),
+        videos: fields.array(
+          fields.file({
+            label: 'Video',
+            description: 'A short mp4 or webm clip.',
+            ...eventImages,
+          }),
+          {
+            label: 'Videos',
+            description: 'Optional. Shown after the story. Photos go inside the story itself.',
+            itemLabel: (props) => props.value?.filename ?? 'Video',
+          },
+        ),
         feature: fields.checkbox({
           label: 'Feature on events page',
           description: 'Marks the event as featured. Not used by the current page design.',

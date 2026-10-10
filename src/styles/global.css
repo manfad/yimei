@@ -315,7 +315,7 @@ p{margin:0}
 .detail-gallery{margin-bottom:46px}
 .detail-body{max-width:68ch;margin-top:8px}
 .detail-body p{margin-top:18px;color:var(--text);line-height:1.75}
-.detail-body img{height:auto;margin-top:18px}
+.detail-body img,.detail-body video{display:block;width:auto;max-width:100%;height:auto;margin-top:18px}
 .detail-back{margin-top:46px}
 .detail-back__arr{transform:rotate(180deg)}
 .detail-related{margin-top:72px;padding-top:48px;border-top:1px solid var(--line)}

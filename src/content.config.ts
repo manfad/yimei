@@ -47,6 +47,7 @@ const events = defineCollection({
     location: z.string().default(''),
     excerpt: z.string().default(''),
     featuredImage: imagePath.or(z.literal('')).optional(),
+    videos: z.array(imagePath).default([]),
     feature: z.boolean().default(false),
     draft: z.boolean().default(false),
     order: z.number().default(999),

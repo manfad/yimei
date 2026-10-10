@@ -31,6 +31,7 @@ export type Event = {
   featuredImage: string;
   /** True when featuredImage is the story's first photo, so the page shouldn't show it twice. */
   coverFromBody: boolean;
+  videos: string[];
   feature: boolean;
   order: number;
 };
@@ -108,6 +109,7 @@ export function toEvent(entry: EventEntry): Event {
     excerpt: entry.data.excerpt,
     featuredImage: entry.data.featuredImage || bodyImage || '',
     coverFromBody: Boolean(bodyImage),
+    videos: entry.data.videos,
     feature: entry.data.feature,
     order: entry.data.order,
   };

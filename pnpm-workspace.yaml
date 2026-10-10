@@ -1,0 +1,6 @@
+# Makes this site its own pnpm root, so installs don't fall through to the ~/yf workspace.
+packages:
+  - .
+allowBuilds:
+  esbuild: true
+  sharp: true
