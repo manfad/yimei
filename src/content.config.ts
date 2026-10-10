@@ -9,6 +9,7 @@ export const productCategoryIds = [
   'waste-water-treatment-equipment',
 ] as const;
 
+// Edited through Keystatic (keystatic.config.ts); the field names here must match it.
 const imagePath = z.string().startsWith('/images/');
 
 const products = defineCollection({
@@ -35,15 +36,15 @@ const products = defineCollection({
   }),
 });
 
+// Event entries are Markdown files; the story is the body, rendered with render().
 const events = defineCollection({
-  loader: glob({ pattern: '*.json', base: './src/content/events' }),
+  loader: glob({ pattern: '*.md', base: './src/content/events' }),
   schema: z.object({
     id: z.string().optional(),
     title: z.string(),
-    date: z.string(),
-    location: z.string(),
-    excerpt: z.string(),
-    body: z.array(z.string()).default([]),
+    date: z.coerce.date(),
+    location: z.string().default(''),
+    excerpt: z.string().default(''),
     images: z.array(imagePath).default([]),
     featuredImage: imagePath.or(z.literal('')).optional(),
     feature: z.boolean().default(false),

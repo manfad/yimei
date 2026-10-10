@@ -18,3 +18,17 @@ Open [http://localhost:4321](http://localhost:4321).
 | `pnpm dev`     | Start dev server                |
 | `pnpm build`   | Build static site to `./dist/`  |
 | `pnpm preview` | Preview production build        |
+
+## Editing content
+
+Products and events are edited in [Keystatic](https://keystatic.com), which is only available in development:
+
+1. Run `pnpm dev` (or `pnpm cms`) and open [http://localhost:4321/keystatic](http://localhost:4321/keystatic).
+2. Edit, then commit the changed files under `src/content/` and `public/images/` and push.
+
+| Collection | Files                         | Drives                                                                 |
+| :--------- | :---------------------------- | :--------------------------------------------------------------------- |
+| Products   | `src/content/products/*.json` | `/products` (cards, filtered by category) and each `/products/<id>` page |
+| Events     | `src/content/events/*.md`     | `/events` (cards) and each `/events/<id>` page; the story is the body   |
+
+Uploaded photos are stored in `public/images/<collection>/<entry>/`. The first gallery photo is used as the card and share image unless a card image is set. Entries marked Draft are hidden from the site.

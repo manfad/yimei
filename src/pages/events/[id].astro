@@ -1,15 +1,19 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import EventMediaThumb from '../../components/EventMediaThumb.astro';
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import { byOrderThenName, toEvent, isVideoSrc } from '../../lib/catalog';
 
 export async function getStaticPaths() {
-  const events = (await getCollection('events', ({ data }) => !data.draft)).map(toEvent).sort(byOrderThenName);
-  return events.map((ev) => ({ params: { id: ev.id }, props: { event: ev } }));
+  const entries = await getCollection('events', ({ data }) => !data.draft);
+  return entries
+    .map((entry) => ({ entry, event: toEvent(entry) }))
+    .sort((a, b) => byOrderThenName(a.event, b.event))
+    .map(({ entry, event }) => ({ params: { id: event.id }, props: { entry, event } }));
 }
 
-const { event } = Astro.props;
+const { entry, event } = Astro.props;
+const { Content } = await render(entry);
 const images = event.images.length > 0 ? event.images : event.featuredImage ? [event.featuredImage] : [];
 const [main, thumb1, thumb2, ...rest] = images;
 const hasMore = rest.length > 0;
@@ -120,7 +124,7 @@ const eventKeywords = [
       }
 
       <div class="detail-body ev-detail__body">
-        {event.body.map((par) => <p>{par}</p>)}
+        <Content />
       </div>
 
       <div class="detail-back">

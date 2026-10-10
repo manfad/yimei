@@ -4,11 +4,10 @@
   "category": "waste-water-treatment-equipment",
   "summary": "An intelligent automatic system that continuously prepares and doses dry powder chemicals for wastewater treatment, integrating water supply, powder dissolution, curing, and automatic control for flocculant and coagulant delivery.",
   "images": [
-    "/images/products/waste-water-treatment-equipment/35-chemical-polymer-dosing-station-flocculant-preparation-dosing-sys/01.png",
-    "/images/products/waste-water-treatment-equipment/35-chemical-polymer-dosing-station-flocculant-preparation-dosing-sys/03.png",
-    "/images/products/waste-water-treatment-equipment/35-chemical-polymer-dosing-station-flocculant-preparation-dosing-sys/06.png"
+    "/images/products/waste-water-treatment-equipment-35-chemical-polymer-dosing-station-flocculant-preparation-dosing-sys/images/0.png",
+    "/images/products/waste-water-treatment-equipment-35-chemical-polymer-dosing-station-flocculant-preparation-dosing-sys/images/1.png",
+    "/images/products/waste-water-treatment-equipment-35-chemical-polymer-dosing-station-flocculant-preparation-dosing-sys/images/2.png"
   ],
-  "featuredImage": "/images/products/waste-water-treatment-equipment/35-chemical-polymer-dosing-station-flocculant-preparation-dosing-sys/01.png",
   "bullets": [
     "High degree of automation, PLC controlled",
     "Spiral feeder with closed-loop speed control, precision within 1%",

@@ -27,7 +27,6 @@ export type Event = {
   location: string;
   title: string;
   excerpt: string;
-  body: string[];
   images: string[];
   featuredImage: string;
   feature: boolean;
@@ -87,15 +86,19 @@ export function toProduct(entry: ProductEntry): Product {
   };
 }
 
+// Events show month and year only, e.g. "Nov 2025".
+export function formatEventDate(date: Date): string {
+  return date.toLocaleDateString('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' });
+}
+
 export function toEvent(entry: EventEntry): Event {
   const featuredImage = entry.data.featuredImage || entry.data.images[0] || '';
   return {
     id: entry.data.id || entry.id,
-    date: entry.data.date,
+    date: formatEventDate(entry.data.date),
     location: entry.data.location,
     title: entry.data.title,
     excerpt: entry.data.excerpt,
-    body: entry.data.body,
     images: entry.data.images,
     featuredImage,
     feature: entry.data.feature,
