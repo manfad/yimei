@@ -31,4 +31,4 @@ Products and events are edited in [Keystatic](https://keystatic.com), which is o
 | Products   | `src/content/products/*.json` | `/products` (cards, filtered by category) and each `/products/<id>` page |
 | Events     | `src/content/events/*.md`     | `/events` (cards) and each `/events/<id>` page; the story is the body   |
 
-Uploaded photos are stored in `public/images/<collection>/<entry>/`. The first gallery photo is used as the card and share image unless a card image is set. Entries marked Draft are hidden from the site.
+Uploaded photos are stored in `public/images/<collection>/<entry>/`. Event photos go inline in the story; the cover image is optional, and when it is empty the first photo in the story is used for the card and share image. A product's first gallery photo is its card image unless a card image is set. Entries marked Draft are hidden from the site.

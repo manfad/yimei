@@ -36,7 +36,8 @@ const products = defineCollection({
   }),
 });
 
-// Event entries are Markdown files; the story is the body, rendered with render().
+// Event entries are Markdown files; the story (text and inline photos) is the body,
+// rendered with render(). Without a featuredImage the first story photo is the cover.
 const events = defineCollection({
   loader: glob({ pattern: '*.md', base: './src/content/events' }),
   schema: z.object({
@@ -45,7 +46,6 @@ const events = defineCollection({
     date: z.coerce.date(),
     location: z.string().default(''),
     excerpt: z.string().default(''),
-    images: z.array(imagePath).default([]),
     featuredImage: imagePath.or(z.literal('')).optional(),
     feature: z.boolean().default(false),
     draft: z.boolean().default(false),

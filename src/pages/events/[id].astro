@@ -14,7 +14,9 @@ export async function getStaticPaths() {
 
 const { entry, event } = Astro.props;
 const { Content } = await render(entry);
-const images = event.images.length > 0 ? event.images : event.featuredImage ? [event.featuredImage] : [];
+// Photos sit inline in the story. The header shows only a cover set in Keystatic;
+// a cover taken from the story's first photo is already shown there.
+const images = event.featuredImage && !event.coverFromBody ? [event.featuredImage] : [];
 const [main, thumb1, thumb2, ...rest] = images;
 const hasMore = rest.length > 0;
 

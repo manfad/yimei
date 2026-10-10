@@ -27,8 +27,10 @@ export type Event = {
   location: string;
   title: string;
   excerpt: string;
-  images: string[];
+  /** Cover for cards, the page header and share image: the one set in Keystatic, else the story's first photo. */
   featuredImage: string;
+  /** True when featuredImage is the story's first photo, so the page shouldn't show it twice. */
+  coverFromBody: boolean;
   feature: boolean;
   order: number;
 };
@@ -91,16 +93,21 @@ export function formatEventDate(date: Date): string {
   return date.toLocaleDateString('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' });
 }
 
+/** First image in a story's Markdown body, e.g. `![](/images/events/x/photo.jpg)`. */
+export function firstBodyImage(body: string | undefined): string | undefined {
+  return body?.match(/!\[[^\]]*\]\(\s*<?([^)\s>]+)/)?.[1];
+}
+
 export function toEvent(entry: EventEntry): Event {
-  const featuredImage = entry.data.featuredImage || entry.data.images[0] || '';
+  const bodyImage = entry.data.featuredImage ? undefined : firstBodyImage(entry.body);
   return {
     id: entry.data.id || entry.id,
     date: formatEventDate(entry.data.date),
     location: entry.data.location,
     title: entry.data.title,
     excerpt: entry.data.excerpt,
-    images: entry.data.images,
-    featuredImage,
+    featuredImage: entry.data.featuredImage || bodyImage || '',
+    coverFromBody: Boolean(bodyImage),
     feature: entry.data.feature,
     order: entry.data.order,
   };

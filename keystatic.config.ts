@@ -118,22 +118,10 @@ export default config({
           multiline: true,
         }),
         featuredImage: fields.image({
-          label: 'Card image',
-          description: 'Optional. Shown on the event card and when the link is shared. Leave empty to use the first gallery item.',
+          label: 'Cover image',
+          description: 'Optional — leave empty to use the first photo in the story.',
           ...eventImages,
         }),
-        images: fields.array(
-          fields.file({
-            label: 'Photo or video',
-            description: 'An image, or a short video (mp4/webm).',
-            ...eventImages,
-          }),
-          {
-            label: 'Gallery',
-            description: 'Photos and videos on the event page, in order.',
-            itemLabel: (props) => props.value?.filename ?? 'Photo or video',
-          },
-        ),
         feature: fields.checkbox({
           label: 'Feature on events page',
           description: 'Marks the event as featured. Not used by the current page design.',
@@ -151,6 +139,7 @@ export default config({
         }),
         body: fields.markdoc({
           label: 'Story',
+          description: 'The event write-up. Insert photos where they belong in the text.',
           extension: 'md',
           options: {
             image: eventImages,
